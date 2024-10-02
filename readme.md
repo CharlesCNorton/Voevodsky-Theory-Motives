@@ -1,5 +1,9 @@
 # Formal Solution to Voevodsky’s Theory of Motives
 
+**By:** Charles Norton & GPT-4 
+
+**Last Updated:** October 2nd, 2024
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
