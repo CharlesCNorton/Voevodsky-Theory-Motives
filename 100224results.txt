@@ -1,0 +1,103 @@
+Motivic Cohomology (Massive):
+   Cohomology Group  Rank
+0               H^0    76
+1               H^1    83
+2               H^2    63
+3               H^3    81
+4               H^4   158
+5               H^5   119
+6               H^6   358
+7               H^7   451
+8               H^8   123
+9               H^9   439
+10             H^10   128
+
+Spectral Sequence (Massive):
+   Spectral Sequence Page  Value
+0                 E2 Page   3783
+1                 E3 Page   3092
+2                 E4 Page   1917
+3                 E5 Page   2296
+4                 E6 Page   1845
+5                 E7 Page   1670
+6                 E8 Page   2826
+7                 E9 Page   1365
+8                E10 Page   3037
+9                E11 Page   1551
+10               E12 Page   2279
+11               E13 Page   4111
+12               E14 Page   2202
+13               E15 Page   2338
+14               E16 Page   2120
+15               E17 Page   4832
+16               E18 Page   1573
+17               E19 Page   4435
+18               E20 Page   1057
+19               E21 Page   3792
+
+Automorphic L-functions (Massive):
+                            Automorphic Form            Variety  L-function Critical Value
+0      Automorphic Form on Shimura Variety 1  Shimura Variety 1                   3.056160
+1      Automorphic Form on Shimura Variety 3  Shimura Variety 3                   7.293482
+2      Automorphic Form on Shimura Variety 1  Shimura Variety 1                   6.900913
+3      Automorphic Form on Shimura Variety 2  Shimura Variety 2                   0.366284
+4      Automorphic Form on Shimura Variety 2  Shimura Variety 2                   4.354426
+...                                      ...                ...                        ...
+99995  Automorphic Form on Shimura Variety 1  Shimura Variety 1                   1.890796
+99996  Automorphic Form on Shimura Variety 3  Shimura Variety 3                   5.831698
+99997  Automorphic Form on Shimura Variety 3  Shimura Variety 3                   1.266842
+99998  Automorphic Form on Shimura Variety 1  Shimura Variety 1                   7.039670
+99999  Automorphic Form on Shimura Variety 1  Shimura Variety 1                   7.964771
+
+[100000 rows x 3 columns]
+
+Chromatic Levels and Morava K-theory (Massive):
+       Chromatic Level K-theory Spectrum Motivic Cohomology Mapping
+0                    2              K(2)        Elliptic Cohomology
+1                    3              K(3)           Complex K-Theory
+2                    2              K(2)           Complex K-Theory
+3                    3              K(3)        Elliptic Cohomology
+4                    2              K(2)        Elliptic Cohomology
+...                ...               ...                        ...
+99995                2              K(2)        Ordinary Cohomology
+99996                0              K(0)           Complex K-Theory
+99997                0              K(0)        Elliptic Cohomology
+99998                1              K(1)           Complex K-Theory
+99999                1              K(1)        Ordinary Cohomology
+
+[100000 rows x 3 columns]
+
+Non-commutative Motive Tests (Massive):
+                             Non-commutative Motive Stability
+0      Non-commutative motive for Shimura Variety 2    Stable
+1      Non-commutative motive for Shimura Variety 2  Unstable
+2      Non-commutative motive for Shimura Variety 3  Unstable
+3      Non-commutative motive for Shimura Variety 1    Stable
+4      Non-commutative motive for Shimura Variety 3    Stable
+...                                             ...       ...
+99995  Non-commutative motive for Shimura Variety 3    Stable
+99996  Non-commutative motive for Shimura Variety 3    Stable
+99997  Non-commutative motive for Shimura Variety 1    Stable
+99998  Non-commutative motive for Shimura Variety 3  Unstable
+99999  Non-commutative motive for Shimura Variety 1    Stable
+
+[100000 rows x 2 columns]
+
+P-adic L-functions (Massive):
+                         Elliptic Curve  L-function Value Iwasawa Torsion
+0                 Non-CM Elliptic Curve          4.928608     Non-torsion
+1                     CM Elliptic Curve          6.799400     Non-torsion
+2                 Non-CM Elliptic Curve          5.094465     Non-torsion
+3      Elliptic Curve over Larger Field          6.160898         Torsion
+4                     CM Elliptic Curve          2.259425     Non-torsion
+...                                 ...               ...             ...
+99995                 CM Elliptic Curve          1.546430         Torsion
+99996             Non-CM Elliptic Curve          6.338064     Non-torsion
+99997                 CM Elliptic Curve          9.362333         Torsion
+99998  Elliptic Curve over Larger Field          9.761572         Torsion
+99999                 CM Elliptic Curve          5.198650         Torsion
+
+[100000 rows x 3 columns]
+
+Statistical Summary of L-functions:
+{'Mean': 4.997810040153521, 'Variance': 8.322504317948555, 'Skewness': 0.006683019573828168, 'Kurtosis': -1.1998944081036533}
