@@ -371,9 +371,9 @@ Thus, the motivic ![L](https://latex.codecogs.com/svg.latex?L)-function associat
 
 **Statement:**
 
-Let \( X \) be a non-commutative variety, and let \( \mathcal{M}_{\text{nc}}(X) \) denote the associated non-commutative motive. The motivic cohomology of \( X \) extends to the non-commutative setting, and for any algebraic cycle \( Z \) in \( X \), the motivic \( L \)-function of \( Z \) is computed as:
+Let ![X](https://latex.codecogs.com/svg.latex?X) be a non-commutative variety, and let ![\mathcal{M}_{\text{nc}}(X)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X)) denote the associated non-commutative motive. The motivic cohomology of ![X](https://latex.codecogs.com/svg.latex?X) extends to the non-commutative setting, and for any algebraic cycle ![Z](https://latex.codecogs.com/svg.latex?Z) in ![X](https://latex.codecogs.com/svg.latex?X), the motivic ![L](https://latex.codecogs.com/svg.latex?L)-function of ![Z](https://latex.codecogs.com/svg.latex?Z) is computed as:
 
-\[ L(s, Z) = \int_{\mathcal{M}_{\text{nc}}(X)} r\left(H_{\text{mot}}^n(Z, \mathbb{Z}(m))\right) \, ds. \]
+![L(s, Z) = \int_{\mathcal{M}_{\text{nc}}(X)} r\left(H_{\text{mot}}^n(Z, \mathbb{Z}(m))\right) \, ds](https://latex.codecogs.com/svg.latex?L(s%2C%20Z)%20%3D%20%5Cint_%7B%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X)%7D%20r%5Cleft(H_%7B%5Ctext%7Bmot%7D%7D%5En(Z%2C%20%5Cmathbb%7BZ%7D(m))%5Cright)%20%5C%2C%20ds).
 
 **Proof of Lemma 3.4**
 
@@ -381,53 +381,53 @@ Let \( X \) be a non-commutative variety, and let \( \mathcal{M}_{\text{nc}}(X) 
 
 Non-commutative geometry, introduced by Alain Connes, generalizes the classical framework of algebraic geometry by replacing commutative algebras of functions on varieties with non-commutative algebras. Non-commutative varieties are defined using non-commutative rings, which replace the commutative coordinate rings of classical varieties.
 
-In this setting, geometric objects are reconstructed from these non-commutative algebras, and the notion of motives is extended to the non-commutative world. For a non-commutative algebra \( A \), one can construct a non-commutative motive \( \mathcal{M}_{\text{nc}}(A) \) in an appropriate derived category of non-commutative motives.
+In this setting, geometric objects are reconstructed from these non-commutative algebras, and the notion of motives is extended to the non-commutative world. For a non-commutative algebra ![A](https://latex.codecogs.com/svg.latex?A), one can construct a non-commutative motive ![\mathcal{M}_{\text{nc}}(A)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(A)) in an appropriate derived category of non-commutative motives.
 
 **Step 2: Non-commutative Motives and Derived Categories**
 
 In classical algebraic geometry, motives are constructed using correspondences between varieties. This process generalizes to non-commutative geometry by considering derived categories of non-commutative spaces.
 
-Let \( D(A) \) denote the derived category of modules over a non-commutative algebra \( A \), which plays the role of the derived category of coherent sheaves in the commutative setting. The non-commutative motive \( \mathcal{M}_{\text{nc}}(X) \) is constructed by considering equivalences between objects in \( D(A) \) and their relationship to other derived categories.
+Let ![D(A)](https://latex.codecogs.com/svg.latex?D(A)) denote the derived category of modules over a non-commutative algebra ![A](https://latex.codecogs.com/svg.latex?A), which plays the role of the derived category of coherent sheaves in the commutative setting. The non-commutative motive ![\mathcal{M}_{\text{nc}}(X)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X)) is constructed by considering equivalences between objects in ![D(A)](https://latex.codecogs.com/svg.latex?D(A)) and their relationship to other derived categories.
 
 **Step 3: Motivic Cohomology in Non-commutative Geometry**
 
-For a non-commutative variety \( X \) defined by a non-commutative algebra \( A \), the motivic cohomology of \( X \) is defined analogously to the commutative case, using Ext-groups in the derived category of non-commutative motives:
+For a non-commutative variety ![X](https://latex.codecogs.com/svg.latex?X) defined by a non-commutative algebra ![A](https://latex.codecogs.com/svg.latex?A), the motivic cohomology of ![X](https://latex.codecogs.com/svg.latex?X) is defined analogously to the commutative case, using Ext-groups in the derived category of non-commutative motives:
 
-\[ H_{\text{mot}}^n(X, \mathbb{Z}(m)) := \operatorname{Ext}^n_{\mathcal{M}_{\text{nc}}(k)}\left(\mathbb{Z}(0), \mathcal{M}_{\text{nc}}(X)(m)\right). \]
+![H_{\text{mot}}^n(X, \mathbb{Z}(m)) := \operatorname{Ext}^n_{\mathcal{M}_{\text{nc}}(k)}\left(\mathbb{Z}(0), \mathcal{M}_{\text{nc}}(X)(m)\right)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%20%3A%3D%20%5Coperatorname%7BExt%7D%5En_%7B%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(k)%7D%5Cleft(%5Cmathbb%7BZ%7D(0)%2C%20%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X)(m)%5Cright)).
 
 **Step 4: Bloch-Kato Regulator in Non-commutative Geometry**
 
-The Bloch-Kato regulator map plays a crucial role in the relationship between motivic cohomology and \( L \)-functions in both the commutative and non-commutative settings. For non-commutative motives, the Bloch-Kato regulator is extended to non-commutative varieties as follows:
+The Bloch-Kato regulator map plays a crucial role in the relationship between motivic cohomology and ![L](https://latex.codecogs.com/svg.latex?L)-functions in both the commutative and non-commutative settings. For non-commutative motives, the Bloch-Kato regulator is extended to non-commutative varieties as follows:
 
-\[ r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m)). \]
+![r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?r%3A%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7BB%7D%7D%5En(X%2C%20%5Cmathbb%7BR%7D(m))).
 
 **Step 5: Stability under Base Change**
 
 We address the stability of motivic cohomology in the non-commutative setting under base change. In the commutative case, motivic cohomology is stable under change of base field, and this result extends to the non-commutative world as well.
 
-Let \( X_{k'} \) be the base change of \( X \) to a field extension \( k'/k \). The non-commutative motive \( \mathcal{M}_{\text{nc}}(X_{k'}) \) is constructed by considering the base change of the non-commutative algebra defining \( X \). The motivic cohomology of \( X \) remains stable under base change:
+Let ![X_{k'}](https://latex.codecogs.com/svg.latex?X_%7Bk'%7D) be the base change of ![X](https://latex.codecogs.com/svg.latex?X) to a field extension ![k'/k](https://latex.codecogs.com/svg.latex?k'%2Fk). The non-commutative motive ![\mathcal{M}_{\text{nc}}(X_{k'})](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X_%7Bk'%7D)) is constructed by considering the base change of the non-commutative algebra defining ![X](https://latex.codecogs.com/svg.latex?X). The motivic cohomology of ![X](https://latex.codecogs.com/svg.latex?X) remains stable under base change:
 
-\[ H_{\text{mot}}^n(X_{k'}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![H_{\text{mot}}^n(X_{k'}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X_%7Bk'%7D%2C%20%5Cmathbb%7BZ%7D(m))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Step 6: Tropical Degeneration and Non-commutative Motives**
 
 We consider the stability of non-commutative motives under tropical degeneration. Tropical geometry studies the behavior of algebraic varieties under degenerations, where varieties degenerate into piecewise-linear objects called tropical varieties.
 
-For a non-commutative variety \( X \), tropical degenerations are considered in the context of tropicalized non-commutative algebras. These degenerations preserve the structure of the non-commutative motive, and the motivic cohomology remains stable under tropical degeneration:
+For a non-commutative variety ![X](https://latex.codecogs.com/svg.latex?X), tropical degenerations are considered in the context of tropicalized non-commutative algebras. These degenerations preserve the structure of the non-commutative motive, and the motivic cohomology remains stable under tropical degeneration:
 
-\[ H_{\text{mot}}^n(X_{\text{trop}}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![H_{\text{mot}}^n(X_{\text{trop}}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X_%7B%5Ctext%7Btrop%7D%7D%2C%20%5Cmathbb%7BZ%7D(m))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Step 7: Computation of Motivic \( L \)-functions in Non-commutative Geometry**
 
-The \( L \)-function associated with a non-commutative motive \( \mathcal{M}_{\text{nc}}(X) \) is computed by integrating the Bloch-Kato regulator map applied to the motivic cohomology of \( X \). For an algebraic cycle \( Z \) in the non-commutative variety \( X \), the motivic \( L \)-function is given by:
+The ![L](https://latex.codecogs.com/svg.latex?L)-function associated with a non-commutative motive ![\mathcal{M}_{\text{nc}}(X)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X)) is computed by integrating the Bloch-Kato regulator map applied to the motivic cohomology of ![X](https://latex.codecogs.com/svg.latex?X). For an algebraic cycle ![Z](https://latex.codecogs.com/svg.latex?Z) in the non-commutative variety ![X](https://latex.codecogs.com/svg.latex?X), the motivic ![L](https://latex.codecogs.com/svg.latex?L)-function is given by:
 
-\[ L(s, Z) = \int_{\mathcal{M}_{\text{nc}}(X)} r\left(H_{\text{mot}}^n(Z, \mathbb{Z}(m))\right) \, ds. \]
+![L(s, Z) = \int_{\mathcal{M}_{\text{nc}}(X)} r\left(H_{\text{mot}}^n(Z, \mathbb{Z}(m))\right) \, ds](https://latex.codecogs.com/svg.latex?L(s%2C%20Z)%20%3D%20%5Cint_%7B%5Cmathcal%7BM%7D_%7B%5Ctext%7Bnc%7D%7D(X)%7D%20r%5Cleft(H_%7B%5Ctext%7Bmot%7D%7D%5En(Z%2C%20%5Cmathbb%7BZ%7D(m))%5Cright)%20%5C%2C%20ds).
 
 **Step 8: Conclusion**
 
-We have established that the motivic cohomology of non-commutative varieties extends naturally from the commutative setting, and the Bloch-Kato regulator map applies to non-commutative motives. The motivic \( L \)-function associated with an algebraic cycle \( Z \) in a non-commutative variety \( X \) is computed using the integral of the regulator map applied to the motivic cohomology of \( X \), and this construction is stable under base change and tropical degeneration.
+We have established that the motivic cohomology of non-commutative varieties extends naturally from the commutative setting, and the Bloch-Kato regulator map applies to non-commutative motives. The motivic ![L](https://latex.codecogs.com/svg.latex?L)-function associated with an algebraic cycle ![Z](https://latex.codecogs.com/svg.latex?Z) in a non-commutative variety ![X](https://latex.codecogs.com/svg.latex?X) is computed using the integral of the regulator map applied to the motivic cohomology of ![X](https://latex.codecogs.com/svg.latex?X), and this construction is stable under base change and tropical degeneration.
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
