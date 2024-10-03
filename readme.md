@@ -523,44 +523,44 @@ The motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://late
 
 **Statement:**
 
-For any smooth, projective variety \( X \), the motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) can be embedded into the derived category of \( X \), and the higher Chow groups \( \operatorname{CH}^p(X) \) are connected to motivic cohomology via the isomorphism:
+For any smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) can be embedded into the derived category of ![X](https://latex.codecogs.com/svg.latex?X), and the higher Chow groups ![\operatorname{CH}^p(X)](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X)) are connected to motivic cohomology via the isomorphism:
 
-\[ \operatorname{CH}^p(X) \cong H_{\text{mot}}^{2p}(X, \mathbb{Z}(p)). \]
+![\operatorname{CH}^p(X) \cong H_{\text{mot}}^{2p}(X, \mathbb{Z}(p))](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X)%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7B2p%7D(X%2C%20%5Cmathbb%7BZ%7D(p))).
 
 **Proof of Lemma 5.1**
 
 **Step 1: Introduction to Higher Chow Groups**
 
-Higher Chow groups were introduced by Spencer Bloch as a generalization of classical Chow groups, allowing for the study of algebraic cycles with broader applications, particularly in motivic cohomology. For a smooth, projective variety \( X \), the classical Chow group \( \operatorname{CH}^p(X) \) is the group of algebraic cycles of codimension \( p \) modulo rational equivalence.
+Higher Chow groups were introduced by Spencer Bloch as a generalization of classical Chow groups, allowing for the study of algebraic cycles with broader applications, particularly in motivic cohomology. For a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the classical Chow group ![\operatorname{CH}^p(X)](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X)) is the group of algebraic cycles of codimension ![p](https://latex.codecogs.com/svg.latex?p) modulo rational equivalence.
 
 **Step 2: Derived Category and Embedding of Motivic Cohomology**
 
-The derived category of coherent sheaves on a smooth, projective variety \( X \), denoted \( D^b(X) \), is the category obtained by taking complexes of coherent sheaves on \( X \) and localizing at quasi-isomorphisms. The motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) can be viewed as Ext-groups in the derived category of motives:
+The derived category of coherent sheaves on a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), denoted ![D^b(X)](https://latex.codecogs.com/svg.latex?D%5Eb(X)), is the category obtained by taking complexes of coherent sheaves on ![X](https://latex.codecogs.com/svg.latex?X) and localizing at quasi-isomorphisms. The motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) can be viewed as Ext-groups in the derived category of motives:
 
-\[ H_{\text{mot}}^n(X, \mathbb{Z}(m)) = \operatorname{Ext}^n_{\mathcal{M}(k)}\left(\mathbb{Z}(0), \mathcal{M}(X)(m)\right). \]
+![H_{\text{mot}}^n(X, \mathbb{Z}(m)) = \operatorname{Ext}^n_{\mathcal{M}(k)}\left(\mathbb{Z}(0), \mathcal{M}(X)(m)\right)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%20%3D%20%5Coperatorname%7BExt%7D%5En_%7B%5Cmathcal%7BM%7D(k)%7D%5Cleft(%5Cmathbb%7BZ%7D(0)%2C%20%5Cmathcal%7BM%7D(X)(m)%5Cright)).
 
-These Ext-groups correspond to certain Ext-groups in \( D^b(X) \) that classify the deformations of algebraic cycles or sheaves on \( X \).
+These Ext-groups correspond to certain Ext-groups in ![D^b(X)](https://latex.codecogs.com/svg.latex?D%5Eb(X)) that classify the deformations of algebraic cycles or sheaves on ![X](https://latex.codecogs.com/svg.latex?X).
 
 **Step 3: Isomorphism Between Higher Chow Groups and Motivic Cohomology**
 
-For any smooth, projective variety \( X \), the higher Chow groups \( \operatorname{CH}^p(X, n) \) are related to motivic cohomology via the isomorphism:
+For any smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the higher Chow groups ![\operatorname{CH}^p(X, n)](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X%2C%20n)) are related to motivic cohomology via the isomorphism:
 
-\[ \operatorname{CH}^p(X, n) \cong H_{\text{mot}}^{2p-n}(X, \mathbb{Z}(p)). \]
+![\operatorname{CH}^p(X, n) \cong H_{\text{mot}}^{2p-n}(X, \mathbb{Z}(p))](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X%2C%20n)%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7B2p-n%7D(X%2C%20%5Cmathbb%7BZ%7D(p))).
 
-For \( n = 0 \), this reduces to the classical case:
+For ![n = 0](https://latex.codecogs.com/svg.latex?n%20%3D%200), this reduces to the classical case:
 
-\[ \operatorname{CH}^p(X) \cong H_{\text{mot}}^{2p}(X, \mathbb{Z}(p)). \]
+![\operatorname{CH}^p(X) \cong H_{\text{mot}}^{2p}(X, \mathbb{Z}(p))](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X)%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7B2p%7D(X%2C%20%5Cmathbb%7BZ%7D(p))).
 
 **Step 4: Conclusion**
 
 We have established that:
 
-- Motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) can be embedded into the derived category \( D^b(X) \).
-- Higher Chow groups \( \operatorname{CH}^p(X) \) are isomorphic to motivic cohomology groups \( H_{\text{mot}}^{2p}(X, \mathbb{Z}(p)) \).
+- Motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) can be embedded into the derived category ![D^b(X)](https://latex.codecogs.com/svg.latex?D%5Eb(X)).
+- Higher Chow groups ![\operatorname{CH}^p(X)](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BCH%7D%5Ep(X)) are isomorphic to motivic cohomology groups ![H_{\text{mot}}^{2p}(X, \mathbb{Z}(p))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5E%7B2p%7D(X%2C%20%5Cmathbb%7BZ%7D(p))).
 
 Thus, the lemma is proved.
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
