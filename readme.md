@@ -1,4 +1,4 @@
-# Formal Solution to Voevodsky’s Theory of Motives
+# Towards a Formal Solution of Voevodsky’s Theory of Motives
 
 **By:** Charles Norton & GPT-4 
 
