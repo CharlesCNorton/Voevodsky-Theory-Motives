@@ -265,9 +265,9 @@ Thus, we have shown that the slice spectral sequence for the motivic cohomology 
 
 **Statement:**
 
-For a smooth, projective variety \( X \), the motivic spectra \( \mathcal{M}(X) \) are related to chromatic levels in motivic homotopy theory. Specifically, for each chromatic level \( n \), there exists a corresponding Morava \( K \)-theory spectrum \( K(n) \) such that:
+For a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the motivic spectra ![\mathcal{M}(X)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(X)) are related to chromatic levels in motivic homotopy theory. Specifically, for each chromatic level ![n](https://latex.codecogs.com/svg.latex?n), there exists a corresponding Morava ![K](https://latex.codecogs.com/svg.latex?K)-theory spectrum ![K(n)](https://latex.codecogs.com/svg.latex?K(n)) such that:
 
-\[ K(n)_*(\mathcal{M}(X)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![K(n)_*(\mathcal{M}(X)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?K(n)_*(%5Cmathcal%7BM%7D(X))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Proof of Lemma 3.2**
 
@@ -276,38 +276,38 @@ For a smooth, projective variety \( X \), the motivic spectra \( \mathcal{M}(X) 
 The chromatic filtration in stable homotopy theory organizes spectra based on their complexity, with each chromatic level corresponding to a particular cohomology theory. The filtration is related to the height of the formal group law associated with a cohomology theory.
 
 - **Chromatic Level 0** corresponds to ordinary cohomology.
-- **Chromatic Level 1** corresponds to complex \( K \)-theory.
-- **Higher Chromatic Levels** \( n \geq 2 \) are associated with more complex spectra, such as elliptic cohomology and Morava \( K \)-theories.
+- **Chromatic Level 1** corresponds to complex ![K](https://latex.codecogs.com/svg.latex?K)-theory.
+- **Higher Chromatic Levels** ![n \geq 2](https://latex.codecogs.com/svg.latex?n%20%5Cgeq%202) are associated with more complex spectra, such as elliptic cohomology and Morava ![K](https://latex.codecogs.com/svg.latex?K)-theories.
 
 **Step 2: Morava \( K \)-Theory and Formal Group Laws**
 
-Morava \( K \)-theory is closely tied to the theory of formal group laws. A formal group law of height \( n \) defines a cohomology theory whose classifying spectrum is the \( n \)-th Morava \( K \)-theory spectrum \( K(n) \). For each chromatic level \( n \), Morava \( K \)-theory captures the portion of stable homotopy theory associated with formal group laws of height exactly \( n \).
+Morava ![K](https://latex.codecogs.com/svg.latex?K)-theory is closely tied to the theory of formal group laws. A formal group law of height ![n](https://latex.codecogs.com/svg.latex?n) defines a cohomology theory whose classifying spectrum is the ![n](https://latex.codecogs.com/svg.latex?n)-th Morava ![K](https://latex.codecogs.com/svg.latex?K)-theory spectrum ![K(n)](https://latex.codecogs.com/svg.latex?K(n)). For each chromatic level ![n](https://latex.codecogs.com/svg.latex?n), Morava ![K](https://latex.codecogs.com/svg.latex?K)-theory captures the portion of stable homotopy theory associated with formal group laws of height exactly ![n](https://latex.codecogs.com/svg.latex?n).
 
 **Step 3: Relationship between Morava \( K \)-Theory and Motivic Cohomology**
 
-For a smooth, projective variety \( X \), the motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) can be viewed as generalized cohomology groups that are compatible with the chromatic filtration of the motivic spectrum \( \mathcal{M}(X) \).
+For a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) can be viewed as generalized cohomology groups that are compatible with the chromatic filtration of the motivic spectrum ![\mathcal{M}(X)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(X)).
 
-At each chromatic level \( n \), we have:
+At each chromatic level ![n](https://latex.codecogs.com/svg.latex?n), we have:
 
-\[ K(n)_*(\mathcal{M}(X)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![K(n)_*(\mathcal{M}(X)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?K(n)_*(%5Cmathcal%7BM%7D(X))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
-This correspondence shows that motivic cohomology captures information at all chromatic levels, and Morava \( K \)-theories provide the tools to extract this information.
+This correspondence shows that motivic cohomology captures information at all chromatic levels, and Morava ![K](https://latex.codecogs.com/svg.latex?K)-theories provide the tools to extract this information.
 
 **Step 4: Elliptic Cohomology and Higher Chromatic Levels**
 
-At chromatic level 2, the motivic spectrum \( \mathcal{M}(X) \) is closely related to elliptic cohomology and the spectrum of topological modular forms (TMF). Elliptic cohomology arises from the moduli space of elliptic curves, and the formal group law associated with an elliptic curve defines a height 2 formal group law.
+At chromatic level 2, the motivic spectrum ![\mathcal{M}(X)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(X)) is closely related to elliptic cohomology and the spectrum of topological modular forms (TMF). Elliptic cohomology arises from the moduli space of elliptic curves, and the formal group law associated with an elliptic curve defines a height 2 formal group law.
 
-For varieties \( X \) related to elliptic cohomology, the motivic cohomology groups correspond to the chromatic level 2 part of the motivic spectrum:
+For varieties ![X](https://latex.codecogs.com/svg.latex?X) related to elliptic cohomology, the motivic cohomology groups correspond to the chromatic level 2 part of the motivic spectrum:
 
-\[ K(2)_*(\mathcal{M}(X)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![K(2)_*(\mathcal{M}(X)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?K(2)_*(%5Cmathcal%7BM%7D(X))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Step 5: Conclusion of the Isomorphism**
 
-We have established that for each chromatic level \( n \), the homotopy groups of the \( n \)-th Morava \( K \)-theory spectrum \( K(n) \) correspond to the motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \). This isomorphism holds under the assumption that the variety \( X \) has a compatible formal group law of height \( n \).
+We have established that for each chromatic level ![n](https://latex.codecogs.com/svg.latex?n), the homotopy groups of the ![n](https://latex.codecogs.com/svg.latex?n)-th Morava ![K](https://latex.codecogs.com/svg.latex?K)-theory spectrum ![K(n)](https://latex.codecogs.com/svg.latex?K(n)) correspond to the motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))). This isomorphism holds under the assumption that the variety ![X](https://latex.codecogs.com/svg.latex?X) has a compatible formal group law of height ![n](https://latex.codecogs.com/svg.latex?n).
 
 Thus, the lemma is proved.
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
