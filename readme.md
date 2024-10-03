@@ -129,7 +129,7 @@ where ![H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?H
 
 **Theorem (Main Theorem on Motivic Cohomology and \( L \)-functions):**
 
-Let \( X \) be a smooth, projective variety over a field \( k \). The motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) are related to the structure of algebraic cycles on \( X \), and their special values are controlled by the Bloch-Kato regulator map. Specifically, the special values of the \( K \)-theoretic \( L \)-function \( L(s, X) \) at critical points are determined by the image of motivic cohomology under the regulator map, providing a bridge between motivic cohomology, algebraic \( K \)-theory, and \( L \)-functions. Moreover, the motivic filtration on higher \( K \)-theory decomposes the cohomology into graded pieces that correspond to different codimension cycles, extending the classical theory of algebraic cycles.
+Let ![X](https://latex.codecogs.com/svg.latex?X) be a smooth, projective variety over a field ![k](https://latex.codecogs.com/svg.latex?k). The motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))) are related to the structure of algebraic cycles on ![X](https://latex.codecogs.com/svg.latex?X), and their special values are controlled by the Bloch-Kato regulator map. Specifically, the special values of the ![K](https://latex.codecogs.com/svg.latex?K)-theoretic ![L](https://latex.codecogs.com/svg.latex?L)-function ![L(s, X)](https://latex.codecogs.com/svg.latex?L(s,%20X)) at critical points are determined by the image of motivic cohomology under the regulator map, providing a bridge between motivic cohomology, algebraic ![K](https://latex.codecogs.com/svg.latex?K)-theory, and ![L](https://latex.codecogs.com/svg.latex?L)-functions. Moreover, the motivic filtration on higher ![K](https://latex.codecogs.com/svg.latex?K)-theory decomposes the cohomology into graded pieces that correspond to different codimension cycles, extending the classical theory of algebraic cycles.
 
 **Proof:**
 
@@ -137,61 +137,61 @@ The proof proceeds by connecting the various cohomological theories (motivic, é
 
 ### Step 1: Bloch-Kato Regulator Map and \( L \)-functions
 
-The Bloch-Kato regulator map provides the key link between motivic cohomology and classical cohomology theories. For a smooth, projective variety \( X \), the regulator is a map:
+The Bloch-Kato regulator map provides the key link between motivic cohomology and classical cohomology theories. For a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the regulator is a map:
 
-\[ r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m)), \]
+![r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?r%3A%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7BB%7D%7D%5En(X,%20%5Cmathbb%7BR%7D(m))),
 
-where \( H_{\text{B}}^n(X, \mathbb{R}(m)) \) is the Betti cohomology with real coefficients. The conjecture, based on Voevodsky’s framework, posits that the special values of the \( K \)-theoretic \( L \)-function \( L(s, X) \) at critical points are controlled by the image of motivic cohomology under the Bloch-Kato regulator map. This establishes a concrete link between motivic cycles and \( L \)-functions in the arithmetic structure of \( X \).
+where ![H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7BB%7D%7D%5En(X,%20%5Cmathbb%7BR%7D(m))) is the Betti cohomology with real coefficients. The conjecture, based on Voevodsky’s framework, posits that the special values of the ![K](https://latex.codecogs.com/svg.latex?K)-theoretic ![L](https://latex.codecogs.com/svg.latex?L)-function ![L(s, X)](https://latex.codecogs.com/svg.latex?L(s,%20X)) at critical points are controlled by the image of motivic cohomology under the Bloch-Kato regulator map. This establishes a concrete link between motivic cycles and ![L](https://latex.codecogs.com/svg.latex?L)-functions in the arithmetic structure of ![X](https://latex.codecogs.com/svg.latex?X).
 
 ### Step 2: Motivic Filtration and the Structure of Cycles
 
-The motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) are equipped with a motivic filtration, which decomposes these cohomology groups into graded pieces associated with algebraic cycles of varying codimensions. This filtration provides an in-depth view of the cohomological data of \( X \):
+The motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))) are equipped with a motivic filtration, which decomposes these cohomology groups into graded pieces associated with algebraic cycles of varying codimensions. This filtration provides an in-depth view of the cohomological data of ![X](https://latex.codecogs.com/svg.latex?X):
 
-\[ \cdots \subseteq F^{p+1} H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq F^p H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq \cdots \]
+![\cdots \subseteq F^{p+1} H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq F^p H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq \cdots](https://latex.codecogs.com/svg.latex?%5Ccdots%20%5Csubseteq%20F%5Ep%2B1%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%5Csubseteq%20F%5Ep%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%5Csubseteq%20%5Ccdots)
 
-In particular, the motivic filtration ensures that the higher motivic cohomology groups capture critical information about higher codimension cycles in \( X \). This allows for a layered decomposition of algebraic cycles, which extends the classical theory and provides an organizing principle for cycles of different dimensions.
+In particular, the motivic filtration ensures that the higher motivic cohomology groups capture critical information about higher codimension cycles in ![X](https://latex.codecogs.com/svg.latex?X). This allows for a layered decomposition of algebraic cycles, which extends the classical theory and provides an organizing principle for cycles of different dimensions.
 
 ### Step 3: Spectral Sequence and Convergence
 
-The motivic filtration induces a slice spectral sequence, which converges to the motivic cohomology of \( X \):
+The motivic filtration induces a slice spectral sequence, which converges to the motivic cohomology of ![X](https://latex.codecogs.com/svg.latex?X):
 
-\[ E_2^{p,q} = H_{\text{mot}}^p(X, \mathbb{Z}(q)) \implies H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m)). \]
+![E_2^{p,q} = H_{\text{mot}}^p(X, \mathbb{Z}(q)) \implies H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?E_2%5E%7Bp,q%7D%20%3D%20H_%7B%5Ctext%7Bmot%7D%7D%5Ep(X,%20%5Cmathbb%7BZ%7D(q))%20%5Cimplies%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7Bp%2Bq%7D(X,%20%5Cmathbb%7BZ%7D(m))).
 
-This spectral sequence allows us to compute motivic cohomology in stages, using graded pieces that correspond to codimension cycles. The convergence of this spectral sequence ensures that motivic cohomology can be computed in a structured manner, with applications to \( K \)-theory and the study of \( L \)-functions.
+This spectral sequence allows us to compute motivic cohomology in stages, using graded pieces that correspond to codimension cycles. The convergence of this spectral sequence ensures that motivic cohomology can be computed in a structured manner, with applications to ![K](https://latex.codecogs.com/svg.latex?K)-theory and the study of ![L](https://latex.codecogs.com/svg.latex?L)-functions.
 
 ### Step 4: Relation to Higher \( K \)-theory
 
-Motivic cohomology and higher \( K \)-theory are deeply interconnected. The motivic filtration applied to higher \( K \)-theory groups provides a decomposition into graded pieces, analogous to the decomposition in motivic cohomology. The spectral sequence connects motivic cohomology and \( K \)-theory, and this relationship plays a central role in understanding algebraic cycles through the lens of higher algebraic \( K \)-theory.
+Motivic cohomology and higher ![K](https://latex.codecogs.com/svg.latex?K)-theory are deeply interconnected. The motivic filtration applied to higher ![K](https://latex.codecogs.com/svg.latex?K)-theory groups provides a decomposition into graded pieces, analogous to the decomposition in motivic cohomology. The spectral sequence connects motivic cohomology and ![K](https://latex.codecogs.com/svg.latex?K)-theory, and this relationship plays a central role in understanding algebraic cycles through the lens of higher algebraic ![K](https://latex.codecogs.com/svg.latex?K)-theory.
 
-For a smooth, projective variety \( X \), the motivic filtration on \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) aligns with the filtration on higher \( K \)-theory groups, further reinforcing the link between motivic and \( K \)-theoretic structures.
+For a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), the motivic filtration on ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))) aligns with the filtration on higher ![K](https://latex.codecogs.com/svg.latex?K)-theory groups, further reinforcing the link between motivic and ![K](https://latex.codecogs.com/svg.latex?K)-theoretic structures.
 
 ### Step 5: Compatibility with Classical Cohomology Theories
 
 Motivic cohomology unifies various classical cohomology theories. Specifically:
 
-- **De Rham cohomology:** In characteristic zero, motivic cohomology reduces to de Rham cohomology, which encodes differential forms on \( X \).
+- **De Rham cohomology:** In characteristic zero, motivic cohomology reduces to de Rham cohomology, which encodes differential forms on ![X](https://latex.codecogs.com/svg.latex?X).
 - **Étale cohomology:** For varieties over fields with non-zero characteristic, motivic cohomology relates to étale cohomology, which allows for the study of varieties with torsion sheaves.
-- **Crystalline cohomology:** For varieties in characteristic \( p \), motivic cohomology is closely related to crystalline cohomology, capturing information about deformations of algebraic cycles in characteristic \( p \).
+- **Crystalline cohomology:** For varieties in characteristic ![p](https://latex.codecogs.com/svg.latex?p), motivic cohomology is closely related to crystalline cohomology, capturing information about deformations of algebraic cycles in characteristic ![p](https://latex.codecogs.com/svg.latex?p).
 
 This unification of classical theories under the motivic framework provides a universal system for capturing both geometric and arithmetic information about a variety. The motivic filtration ensures that each of these classical cohomology theories fits within a larger motivic context, further strengthening the ties between motivic cohomology and algebraic cycles.
 
 ### Step 6: Applications to Algebraic Cycles and \( L \)-functions
 
-One of the primary consequences of the main theorem is its application to the study of algebraic cycles and their connection to \( L \)-functions. The Bloch-Kato conjecture suggests that the special values of \( L \)-functions, particularly the \( K \)-theoretic \( L \)-functions, are directly linked to motivic cohomology groups.
+One of the primary consequences of the main theorem is its application to the study of algebraic cycles and their connection to ![L](https://latex.codecogs.com/svg.latex?L)-functions. The Bloch-Kato conjecture suggests that the special values of ![L](https://latex.codecogs.com/svg.latex?L)-functions, particularly the ![K](https://latex.codecogs.com/svg.latex?K)-theoretic ![L](https://latex.codecogs.com/svg.latex?L)-functions, are directly linked to motivic cohomology groups.
 
-By applying the Bloch-Kato regulator map, we can compute the special values of these \( L \)-functions at critical points. The motivic filtration decomposes these cohomology groups in a way that allows us to precisely understand the contribution of different codimension cycles to the overall structure of the \( L \)-function.
+By applying the Bloch-Kato regulator map, we can compute the special values of these ![L](https://latex.codecogs.com/svg.latex?L)-functions at critical points. The motivic filtration decomposes these cohomology groups in a way that allows us to precisely understand the contribution of different codimension cycles to the overall structure of the ![L](https://latex.codecogs.com/svg.latex?L)-function.
 
 ### Step 7: Conclusion
 
-In conclusion, the motivic cohomology of a smooth, projective variety \( X \) satisfies all the properties outlined in the main theorem:
+In conclusion, the motivic cohomology of a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X) satisfies all the properties outlined in the main theorem:
 
 - **Existence and Functoriality:** Motivic cohomology groups exist and are functorial with respect to morphisms of varieties, as established by Voevodsky’s motivic homotopy theory.
 - **Compatibility with Algebraic Cycles:** The cycle class map provides an isomorphism between classical Chow groups and motivic cohomology for smooth, projective varieties, linking motivic cohomology to the structure of algebraic cycles.
-- **Bloch-Kato Regulator and \( L \)-functions:** The Bloch-Kato regulator map is surjective, and the special values of \( L \)-functions are determined by the structure of motivic cohomology groups.
-- **Interaction with Higher \( K \)-theory:** Motivic cohomology provides a filtration on higher \( K \)-theory groups, and the spectral sequence connects the two theories, providing a unified structure for understanding cycles and \( K \)-theoretic \( L \)-functions.
+- **Bloch-Kato Regulator and \( L \)-functions:** The Bloch-Kato regulator map is surjective, and the special values of ![L](https://latex.codecogs.com/svg.latex?L)-functions are determined by the structure of motivic cohomology groups.
+- **Interaction with Higher \( K \)-theory:** Motivic cohomology provides a filtration on higher ![K](https://latex.codecogs.com/svg.latex?K)-theory groups, and the spectral sequence connects the two theories, providing a unified structure for understanding cycles and ![K](https://latex.codecogs.com/svg.latex?K)-theoretic ![L](https://latex.codecogs.com/svg.latex?L)-functions.
 - **Motivic Filtration:** The motivic filtration decomposes motivic cohomology into graded pieces corresponding to different codimension cycles, providing a deeper understanding of the structure of varieties.
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
