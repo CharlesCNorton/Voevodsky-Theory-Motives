@@ -477,25 +477,25 @@ By establishing that the motivic cohomology of ![E](https://latex.codecogs.com/s
 
 **Statement:**
 
-For a Calabi-Yau variety \( X \) appearing in compactified string theory, the motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) determine the string amplitudes in the associated quantum field theory. Specifically, for a state \( \alpha \) in the quantum cohomology of \( X \), the string amplitude is computed as:
+For a Calabi-Yau variety ![X](https://latex.codecogs.com/svg.latex?X) appearing in compactified string theory, the motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) determine the string amplitudes in the associated quantum field theory. Specifically, for a state ![\alpha](https://latex.codecogs.com/svg.latex?%5Calpha) in the quantum cohomology of ![X](https://latex.codecogs.com/svg.latex?X), the string amplitude is computed as:
 
-\[ A(X, \alpha) = \int_{H_{\text{mot}}^n(X, \mathbb{Z}(m))} r(\alpha). \]
+![A(X, \alpha) = \int_{H_{\text{mot}}^n(X, \mathbb{Z}(m))} r(\alpha)](https://latex.codecogs.com/svg.latex?A(X%2C%20%5Calpha)%20%3D%20%5Cint_%7BH_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%7D%20r(%5Calpha)).
 
 **Proof of Corollary 4.2**
 
 **Step 1: Contextual Background**
 
-In string theory, particularly in the context of compactifications, the choice of the Calabi-Yau manifold significantly influences the physical properties of the low-energy effective theory. The cohomological data of the Calabi-Yau variety \( X \) encodes information about the physical states of the string theory, including the interactions of those states.
+In string theory, particularly in the context of compactifications, the choice of the Calabi-Yau manifold significantly influences the physical properties of the low-energy effective theory. The cohomological data of the Calabi-Yau variety ![X](https://latex.codecogs.com/svg.latex?X) encodes information about the physical states of the string theory, including the interactions of those states.
 
 **Step 2: Motivic Cohomology of Calabi-Yau Varieties**
 
-The motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) capture the underlying geometric structure of \( X \) and encode information related to Hodge structures, periods, and arithmetic properties.
+The motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) capture the underlying geometric structure of ![X](https://latex.codecogs.com/svg.latex?X) and encode information related to Hodge structures, periods, and arithmetic properties.
 
 **Step 3: The Bloch-Kato Regulator**
 
 The Bloch-Kato regulator is a map:
 
-\[ r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m)). \]
+![r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?r%3A%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7BB%7D%7D%5En(X%2C%20%5Cmathbb%7BR%7D(m))).
 
 This map provides a bridge between the motivic cohomology and the periods of the Calabi-Yau variety, which are essential for computing the string amplitudes.
 
@@ -503,17 +503,17 @@ This map provides a bridge between the motivic cohomology and the periods of the
 
 In compactified string theory:
 
-- The quantum states correspond to classes in the quantum cohomology of \( X \).
-- Each state \( \alpha \) is an element of the quantum cohomology group, encapsulating the physical information about string interactions.
-- The string amplitude \( A(X, \alpha) \) represents the probability of transitioning between different string states and is computed by integrating the image of \( \alpha \) under the Bloch-Kato regulator over the motivic cohomology:
+- The quantum states correspond to classes in the quantum cohomology of ![X](https://latex.codecogs.com/svg.latex?X).
+- Each state ![\alpha](https://latex.codecogs.com/svg.latex?%5Calpha) is an element of the quantum cohomology group, encapsulating the physical information about string interactions.
+- The string amplitude ![A(X, \alpha)](https://latex.codecogs.com/svg.latex?A(X%2C%20%5Calpha)) represents the probability of transitioning between different string states and is computed by integrating the image of ![\alpha](https://latex.codecogs.com/svg.latex?%5Calpha) under the Bloch-Kato regulator over the motivic cohomology:
 
-\[ A(X, \alpha) = \int_{H_{\text{mot}}^n(X, \mathbb{Z}(m))} r(\alpha). \]
+![A(X, \alpha) = \int_{H_{\text{mot}}^n(X, \mathbb{Z}(m))} r(\alpha)](https://latex.codecogs.com/svg.latex?A(X%2C%20%5Calpha)%20%3D%20%5Cint_%7BH_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%7D%20r(%5Calpha)).
 
 **Step 5: Conclusion**
 
-The motivic cohomology groups \( H_{\text{mot}}^n(X, \mathbb{Z}(m)) \) encapsulate the necessary geometric data to compute the string amplitudes in compactified string theories. Thus, the corollary is established.
+The motivic cohomology groups ![H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))) encapsulate the necessary geometric data to compute the string amplitudes in compactified string theories. Thus, the corollary is established.
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
