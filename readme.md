@@ -55,55 +55,55 @@ This work not only advances the field of motivic theory but also serves as a lan
 
 ### 1.1 The Category of Smooth, Projective Varieties
 
-**Definition 1.1 (Smooth, Projective Varieties):** Let \( \text{Var}_k \) denote the category of smooth, projective varieties over a field \( k \). Objects in this category are varieties \( X \in \text{Var}_k \) that are smooth (i.e., non-singular) and projective over \( k \), and morphisms are regular maps between such varieties.
+**Definition 1.1 (Smooth, Projective Varieties):** Let [Var_k](https://latex.codecogs.com/svg.latex?%5Ctext%7BVar%7D_k) denote the category of smooth, projective varieties over a field [k](https://latex.codecogs.com/svg.latex?k). Objects in this category are varieties [X \in \text{Var}_k](https://latex.codecogs.com/svg.latex?X%20%5Cin%20%5Ctext%7BVar%7D_k) that are smooth (i.e., non-singular) and projective over [k](https://latex.codecogs.com/svg.latex?k), and morphisms are regular maps between such varieties.
 
 ### 1.2 The Category of Motives
 
-The category of motives over a field \( k \), denoted \( \mathcal{M}(k) \), is central in Voevodsky’s Theory of Motives. Motives serve as universal cohomological objects that encode the relationships between varieties via algebraic correspondences.
+The category of motives over a field [k](https://latex.codecogs.com/svg.latex?k), denoted [\mathcal{M}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(k)), is central in Voevodsky’s Theory of Motives. Motives serve as universal cohomological objects that encode the relationships between varieties via algebraic correspondences.
 
-**Definition 1.2 (Category of Motives):** The category of motives \( \mathcal{M}(k) \) is the pseudo-abelian completion of the category of correspondences. For a smooth, projective variety \( X \), the motive associated with \( X \) is denoted by \( h(X) \) and represents an object in \( \mathcal{M}(k) \).
+**Definition 1.2 (Category of Motives):** The category of motives [\mathcal{M}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(k)) is the pseudo-abelian completion of the category of correspondences. For a smooth, projective variety [X](https://latex.codecogs.com/svg.latex?X), the motive associated with [X](https://latex.codecogs.com/svg.latex?X) is denoted by [h(X)](https://latex.codecogs.com/svg.latex?h(X)) and represents an object in [\mathcal{M}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(k)).
 
 Morphisms between motives are given by algebraic correspondences:
 
-\[ \operatorname{Hom}_{\mathcal{M}(k)}(h(X), h(Y)) = \operatorname{Corr}_k(X, Y). \]
+![\operatorname{Hom}_{\mathcal{M}(k)}(h(X), h(Y)) = \operatorname{Corr}_k(X, Y)](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BHom%7D_%7B%5Cmathcal%7BM%7D(k)%7D(h(X),%20h(Y))%20%3D%20%5Coperatorname%7BCorr%7D_k(X,%20Y)).
 
 ### 1.3 Pure and Mixed Motives
 
-**Definition 1.3 (Pure Motives):** Pure motives, denoted \( \mathcal{M}^{\text{pure}}(k) \), correspond to smooth, projective varieties and their relations via algebraic cycles. Objects in \( \mathcal{M}^{\text{pure}}(k) \) are the motives of smooth, projective varieties, and morphisms are algebraic correspondences.
+**Definition 1.3 (Pure Motives):** Pure motives, denoted [\mathcal{M}^{\text{pure}}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D%5E%7B%5Ctext%7Bpure%7D%7D(k)), correspond to smooth, projective varieties and their relations via algebraic cycles. Objects in [\mathcal{M}^{\text{pure}}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D%5E%7B%5Ctext%7Bpure%7D%7D(k)) are the motives of smooth, projective varieties, and morphisms are algebraic correspondences.
 
-**Definition 1.4 (Mixed Motives):** Mixed motives, denoted \( \mathcal{M}^{\text{mixed}}(k) \), are constructed for more general varieties (including singular or open varieties) and form a triangulated category. These motives come with a weight filtration, reflecting the complexity of geometric and arithmetic data. The weight filtration on a mixed motive \( M \) is:
+**Definition 1.4 (Mixed Motives):** Mixed motives, denoted [\mathcal{M}^{\text{mixed}}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D%5E%7B%5Ctext%7Bmixed%7D%7D(k)), are constructed for more general varieties (including singular or open varieties) and form a triangulated category. These motives come with a weight filtration, reflecting the complexity of geometric and arithmetic data. The weight filtration on a mixed motive [M](https://latex.codecogs.com/svg.latex?M) is:
 
-\[ W_0 M \subseteq W_1 M \subseteq \cdots \subseteq M, \]
+![W_0 M \subseteq W_1 M \subseteq \cdots \subseteq M](https://latex.codecogs.com/svg.latex?W_0%20M%20%5Csubseteq%20W_1%20M%20%5Csubseteq%20%5Ccdots%20%5Csubseteq%20M),
 
-with the graded pieces \( \operatorname{gr}_i^W M \) being pure motives of weight \( i \).
+with the graded pieces [\operatorname{gr}_i^W M](https://latex.codecogs.com/svg.latex?%5Coperatorname%7Bgr%7D_i%5EW%20M) being pure motives of weight [i](https://latex.codecogs.com/svg.latex?i).
 
 ### 1.4 Functoriality and Tensor Structure
 
 The category of motives (both pure and mixed) possesses a rich structure, including tensor products and duality.
 
-**Tensor Structure:** The category \( \mathcal{M}(k) \) is a tensor category, meaning it supports the notion of a tensor product of motives:
+**Tensor Structure:** The category [\mathcal{M}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BM%7D(k)) is a tensor category, meaning it supports the notion of a tensor product of motives:
 
-\[ h(X) \otimes h(Y) = h(X \times Y), \]
+![h(X) \otimes h(Y) = h(X \times Y)](https://latex.codecogs.com/svg.latex?h(X)%20%5Cotimes%20h(Y)%20%3D%20h(X%20%5Ctimes%20Y)),
 
-where \( X \times Y \) is the product variety.
+where [X \times Y](https://latex.codecogs.com/svg.latex?X%20%5Ctimes%20Y) is the product variety.
 
-**Duality:** Each motive \( M \) has a dual motive \( M^\vee \), satisfying:
+**Duality:** Each motive [M](https://latex.codecogs.com/svg.latex?M) has a dual motive [M^\vee](https://latex.codecogs.com/svg.latex?M%5E%5Cvee), satisfying:
 
-\[ \operatorname{Hom}_{\mathcal{M}(k)}(M_1, M_2) \cong \operatorname{Hom}_{\mathcal{M}(k)}(M_2^\vee, M_1^\vee). \]
+![\operatorname{Hom}_{\mathcal{M}(k)}(M_1, M_2) \cong \operatorname{Hom}_{\mathcal{M}(k)}(M_2^\vee, M_1^\vee)](https://latex.codecogs.com/svg.latex?%5Coperatorname%7BHom%7D_%7B%5Cmathcal%7BM%7D(k)%7D(M_1,%20M_2)%20%5Ccong%20%5Coperatorname%7BHom%7D_%7B%5Cmathcal%7BM%7D(k)%7D(M_2%5E%5Cvee,%20M_1%5E%5Cvee)).
 
 ### 1.5 Motivic Cohomology
 
-Motivic cohomology generalizes classical cohomology theories, unifying the study of algebraic cycles, higher \( K \)-theory, and arithmetic data in a single framework.
+Motivic cohomology generalizes classical cohomology theories, unifying the study of algebraic cycles, higher [K](https://latex.codecogs.com/svg.latex?K)-theory, and arithmetic data in a single framework.
 
-**Definition 1.5 (Motivic Cohomology):** For a smooth, projective variety \( X \) over \( k \), the motivic cohomology groups are defined as:
+**Definition 1.5 (Motivic Cohomology):** For a smooth, projective variety [X](https://latex.codecogs.com/svg.latex?X) over [k](https://latex.codecogs.com/svg.latex?k), the motivic cohomology groups are defined as:
 
-\[ H_{\text{mot}}^n(X, \mathbb{Z}(m)) := \operatorname{Ext}^n_{\mathcal{M}(k)}\left(\mathbb{Z}(0), h(X)(m)\right), \]
+![H_{\text{mot}}^n(X, \mathbb{Z}(m)) := \operatorname{Ext}^n_{\mathcal{M}(k)}\left(\mathbb{Z}(0), h(X)(m)\right)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%3A%3D%20%5Coperatorname%7BExt%7D%5En_%7B%5Cmathcal%7BM%7D(k)%7D%5Cleft(%5Cmathbb%7BZ%7D(0),%20h(X)(m)%5Cright)),
 
-where \( \mathbb{Z}(0) \) is the motive of a point, and \( h(X)(m) \) represents the motive of \( X \) with a Tate twist by \( m \).
+where [\mathbb{Z}(0)](https://latex.codecogs.com/svg.latex?%5Cmathbb%7BZ%7D(0)) is the motive of a point, and [h(X)(m)](https://latex.codecogs.com/svg.latex?h(X)(m)) represents the motive of [X](https://latex.codecogs.com/svg.latex?X) with a Tate twist by [m](https://latex.codecogs.com/svg.latex?m).
 
 **Motivic Filtration:** Motivic cohomology groups are equipped with a filtration that decomposes them into graded pieces corresponding to different codimension cycles:
 
-\[ \cdots \subseteq F^{p+1} H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq F^p H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq \cdots \]
+![\cdots \subseteq F^{p+1} H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq F^p H_{\text{mot}}^n(X, \mathbb{Z}(m)) \subseteq \cdots](https://latex.codecogs.com/svg.latex?%5Ccdots%20%5Csubseteq%20F%5Ep%2B1%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%5Csubseteq%20F%5Ep%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%5Csubseteq%20%5Ccdots)
 
 This filtration plays a crucial role in the slice spectral sequence used to compute motivic cohomology.
 
@@ -111,15 +111,16 @@ This filtration plays a crucial role in the slice spectral sequence used to comp
 
 The Bloch-Kato regulator map provides a bridge between motivic cohomology and classical cohomology theories, such as Betti cohomology, étale cohomology, and de Rham cohomology.
 
-**Definition 1.6 (Bloch-Kato Regulator Map):** For a smooth, projective variety \( X \), the Bloch-Kato regulator is a map from motivic cohomology to Betti cohomology:
+**Definition 1.6 (Bloch-Kato Regulator Map):** For a smooth, projective variety [X](https://latex.codecogs.com/svg.latex?X), the Bloch-Kato regulator is a map from motivic cohomology to Betti cohomology:
 
-\[ r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m)), \]
+![r: H_{\text{mot}}^n(X, \mathbb{Z}(m)) \to H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?r%3A%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X,%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7BB%7D%7D%5En(X,%20%5Cmathbb%7BR%7D(m))),
 
-where \( H_{\text{B}}^n(X, \mathbb{R}(m)) \) denotes Betti cohomology with real coefficients. Depending on the base field, the target cohomology group may vary:
+where [H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7BB%7D%7D%5En(X,%20%5Cmathbb%7BR%7D(m))) denotes Betti cohomology with real coefficients. Depending on the base field, the target cohomology group may vary:
 
-- Over \( \mathbb{C} \), it corresponds to Betti cohomology \( H_{\text{B}}^n(X, \mathbb{R}) \).
-- Over a \( p \)-adic field, the regulator targets étale cohomology \( H_{\text{et}}^n(X, \mathbb{Q}_p) \).
-- For varieties in characteristic \( p \), it may target crystalline cohomology.
+- Over [\mathbb{C}](https://latex.codecogs.com/svg.latex?%5Cmathbb%7BC%7D), it corresponds to Betti cohomology [H_{\text{B}}^n(X, \mathbb{R})](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7BB%7D%7D%5En(X,%20%5Cmathbb%7BR%7D)).
+- Over a [p](https://latex.codecogs.com/svg.latex?p)-adic field, the regulator targets étale cohomology [H_{\text{et}}^n(X, \mathbb{Q}_p)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bet%7D%7D%5En(X,%20%5Cmathbb%7BQ_p%7D)).
+- For varieties in characteristic [p](https://latex.codecogs.com/svg.latex?p), it may target crystalline cohomology.
+
 
 ---
 
