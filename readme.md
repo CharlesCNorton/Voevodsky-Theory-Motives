@@ -437,39 +437,39 @@ We have established that the motivic cohomology of non-commutative varieties ext
 
 **Statement:**
 
-Let \( E \) be a CM elliptic curve defined over a \( p \)-adic field \( F \). The motivic cohomology of \( E \) over the Iwasawa tower computes the special values of the \( p \)-adic \( L \)-function \( L_p(s, E) \) as:
+Let ![E](https://latex.codecogs.com/svg.latex?E) be a CM elliptic curve defined over a ![p](https://latex.codecogs.com/svg.latex?p)-adic field ![F](https://latex.codecogs.com/svg.latex?F). The motivic cohomology of ![E](https://latex.codecogs.com/svg.latex?E) over the Iwasawa tower computes the special values of the ![p](https://latex.codecogs.com/svg.latex?p)-adic ![L](https://latex.codecogs.com/svg.latex?L)-function ![L_p(s, E)](https://latex.codecogs.com/svg.latex?L_p(s%2C%20E)) as:
 
-\[ L_p(s, E) = H_{\text{mot}}^n(E, \mathbb{Z}_p(m)). \]
+![L_p(s, E) = H_{\text{mot}}^n(E, \mathbb{Z}_p(m))](https://latex.codecogs.com/svg.latex?L_p(s%2C%20E)%20%3D%20H_%7B%5Ctext%7Bmot%7D%7D%5En(E%2C%20%5Cmathbb%7BZ%7D_p(m))).
 
 **Proof of Corollary 4.1**
 
 **Step 1: Overview of Iwasawa Theory**
 
-Iwasawa theory studies the behavior of arithmetic objects over towers of \( p \)-adic extensions. For an elliptic curve \( E \) defined over a \( p \)-adic field \( F \), we consider the infinite tower of field extensions \( F_\infty \), where \( F_n \) is obtained by adjoining the \( p^n \)-th roots of unity.
+Iwasawa theory studies the behavior of arithmetic objects over towers of ![p](https://latex.codecogs.com/svg.latex?p)-adic extensions. For an elliptic curve ![E](https://latex.codecogs.com/svg.latex?E) defined over a ![p](https://latex.codecogs.com/svg.latex?p)-adic field ![F](https://latex.codecogs.com/svg.latex?F), we consider the infinite tower of field extensions ![F_\infty](https://latex.codecogs.com/svg.latex?F_%5Cinfty), where ![F_n](https://latex.codecogs.com/svg.latex?F_n) is obtained by adjoining the ![p^n](https://latex.codecogs.com/svg.latex?p%5En)-th roots of unity.
 
 **Step 2: Motivic Cohomology of Elliptic Curves**
 
-For a CM elliptic curve \( E \), the motivic cohomology \( H_{\text{mot}}^n(E, \mathbb{Z}_p(m)) \) encodes the arithmetic properties of \( E \), including information about the rational points and the \( p \)-adic Galois representations associated with \( E \).
+For a CM elliptic curve ![E](https://latex.codecogs.com/svg.latex?E), the motivic cohomology ![H_{\text{mot}}^n(E, \mathbb{Z}_p(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(E%2C%20%5Cmathbb%7BZ%7D_p(m))) encodes the arithmetic properties of ![E](https://latex.codecogs.com/svg.latex?E), including information about the rational points and the ![p](https://latex.codecogs.com/svg.latex?p)-adic Galois representations associated with ![E](https://latex.codecogs.com/svg.latex?E).
 
 **Step 3: \( p \)-adic \( L \)-functions and Special Values**
 
-The \( p \)-adic \( L \)-function \( L_p(s, E) \) encodes arithmetic data associated with the elliptic curve \( E \) and varies continuously with respect to the \( p \)-adic field extensions in the Iwasawa tower. The special values of \( L_p(s, E) \) are related to the ranks of \( E \) over the \( p \)-adic fields.
+The ![p](https://latex.codecogs.com/svg.latex?p)-adic ![L](https://latex.codecogs.com/svg.latex?L)-function ![L_p(s, E)](https://latex.codecogs.com/svg.latex?L_p(s%2C%20E)) encodes arithmetic data associated with the elliptic curve ![E](https://latex.codecogs.com/svg.latex?E) and varies continuously with respect to the ![p](https://latex.codecogs.com/svg.latex?p)-adic field extensions in the Iwasawa tower. The special values of ![L_p(s, E)](https://latex.codecogs.com/svg.latex?L_p(s%2C%20E)) are related to the ranks of ![E](https://latex.codecogs.com/svg.latex?E) over the ![p](https://latex.codecogs.com/svg.latex?p)-adic fields.
 
 **Step 4: Bloch-Kato Regulator Map**
 
-The Bloch-Kato regulator provides a map from the motivic cohomology of \( E \) to the \( p \)-adic cohomology groups of \( E \):
+The Bloch-Kato regulator provides a map from the motivic cohomology of ![E](https://latex.codecogs.com/svg.latex?E) to the ![p](https://latex.codecogs.com/svg.latex?p)-adic cohomology groups of ![E](https://latex.codecogs.com/svg.latex?E):
 
-\[ r: H_{\text{mot}}^n(E, \mathbb{Z}_p(m)) \to H_{\text{Iw}}^n(E/F_\infty, \mathbb{Z}_p), \]
+![r: H_{\text{mot}}^n(E, \mathbb{Z}_p(m)) \to H_{\text{Iw}}^n(E/F_\infty, \mathbb{Z}_p)](https://latex.codecogs.com/svg.latex?r%3A%20H_%7B%5Ctext%7Bmot%7D%7D%5En(E%2C%20%5Cmathbb%7BZ%7D_p(m))%20%5Cto%20H_%7B%5Ctext%7BIw%7D%7D%5En(E%2FF_%5Cinfty%2C%20%5Cmathbb%7BZ%7D_p)),
 
-where \( H_{\text{Iw}}^n(E/F_\infty, \mathbb{Z}_p) \) denotes the Iwasawa cohomology.
+where ![H_{\text{Iw}}^n(E/F_\infty, \mathbb{Z}_p)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7BIw%7D%7D%5En(E%2FF_%5Cinfty%2C%20%5Cmathbb%7BZ%7D_p)) denotes the Iwasawa cohomology.
 
 **Step 5: Conclusion**
 
-By establishing that the motivic cohomology of \( E \) controls the Iwasawa cohomology of \( E \) in the \( p \)-adic extension \( F_\infty \), we conclude that the special values of the \( p \)-adic \( L \)-function \( L_p(s, E) \) are determined by the motivic cohomology groups. Hence:
+By establishing that the motivic cohomology of ![E](https://latex.codecogs.com/svg.latex?E) controls the Iwasawa cohomology of ![E](https://latex.codecogs.com/svg.latex?E) in the ![p](https://latex.codecogs.com/svg.latex?p)-adic extension ![F_\infty](https://latex.codecogs.com/svg.latex?F_%5Cinfty), we conclude that the special values of the ![p](https://latex.codecogs.com/svg.latex?p)-adic ![L](https://latex.codecogs.com/svg.latex?L)-function ![L_p(s, E)](https://latex.codecogs.com/svg.latex?L_p(s%2C%20E)) are determined by the motivic cohomology groups. Hence:
 
-\[ L_p(s, E) = H_{\text{mot}}^n(E, \mathbb{Z}_p(m)). \]
+![L_p(s, E) = H_{\text{mot}}^n(E, \mathbb{Z}_p(m))](https://latex.codecogs.com/svg.latex?L_p(s%2C%20E)%20%3D%20H_%7B%5Ctext%7Bmot%7D%7D%5En(E%2C%20%5Cmathbb%7BZ%7D_p(m))).
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
