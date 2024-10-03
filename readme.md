@@ -201,63 +201,63 @@ In conclusion, the motivic cohomology of a smooth, projective variety ![X](https
 
 **Statement:**
 
-Let \( X \) be a smooth, projective variety of dimension \( d \). The slice spectral sequence associated with the motivic filtration of \( X \) converges to the motivic cohomology groups:
+Let ![X](https://latex.codecogs.com/svg.latex?X) be a smooth, projective variety of dimension ![d](https://latex.codecogs.com/svg.latex?d). The slice spectral sequence associated with the motivic filtration of ![X](https://latex.codecogs.com/svg.latex?X) converges to the motivic cohomology groups:
 
-\[ E_2^{p,q} = H_{\text{mot}}^p(X, \mathbb{Z}(q)) \implies H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m)). \]
+![E_2^{p,q} = H_{\text{mot}}^p(X, \mathbb{Z}(q)) \implies H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?E_2%5E%7Bp%2Cq%7D%20%3D%20H_%7B%5Ctext%7Bmot%7D%7D%5Ep(X%2C%20%5Cmathbb%7BZ%7D(q))%20%5Cimplies%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7Bp%2Bq%7D(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
-Furthermore, for any smooth blow-up \( \tilde{X} \) of \( X \), we have:
+Furthermore, for any smooth blow-up ![\tilde{X}](https://latex.codecogs.com/svg.latex?%5Ctilde%7BX%7D) of ![X](https://latex.codecogs.com/svg.latex?X), we have:
 
-\[ H_{\text{mot}}^n(\tilde{X}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![H_{\text{mot}}^n(\tilde{X}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(%5Ctilde%7BX%7D%2C%20%5Cmathbb%7BZ%7D(m))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Proof of Lemma 3.1**
 
 **Step 1: Construction of the Slice Spectral Sequence**
 
-The slice filtration in the motivic homotopy category \( \mathcal{SH}(k) \) is a tower of localizations of spectra. For a motivic spectrum \( E \), the slice filtration produces a sequence of spectra called the slices, which are analogous to Postnikov pieces in classical homotopy theory.
+The slice filtration in the motivic homotopy category ![\mathcal{SH}(k)](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BSH%7D(k)) is a tower of localizations of spectra. For a motivic spectrum ![E](https://latex.codecogs.com/svg.latex?E), the slice filtration produces a sequence of spectra called the slices, which are analogous to Postnikov pieces in classical homotopy theory.
 
-For a motivic spectrum \( E \), we have:
+For a motivic spectrum ![E](https://latex.codecogs.com/svg.latex?E), we have:
 
-\[ E \to \cdots \to f_n E \to f_{n-1} E \to \cdots \to f_0 E \to 0, \]
+![E \to \cdots \to f_n E \to f_{n-1} E \to \cdots \to f_0 E \to 0](https://latex.codecogs.com/svg.latex?E%20%5Cto%20%5Ccdots%20%5Cto%20f_n%20E%20%5Cto%20f_%7Bn-1%7D%20E%20%5Cto%20%5Ccdots%20%5Cto%20f_0%20E%20%5Cto%200),
 
-where \( f_n E \) denotes the \( n \)-th filtration level. The associated slice spectral sequence converges to the motivic homotopy groups of \( E \), and for a smooth, projective variety \( X \), we set \( E = \Sigma^\infty X_+ \). Thus, the slice spectral sequence takes the form:
+where ![f_n E](https://latex.codecogs.com/svg.latex?f_n%20E) denotes the ![n](https://latex.codecogs.com/svg.latex?n)-th filtration level. The associated slice spectral sequence converges to the motivic homotopy groups of ![E](https://latex.codecogs.com/svg.latex?E), and for a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X), we set ![E = \Sigma^\infty X_+](https://latex.codecogs.com/svg.latex?E%20%3D%20%5CSigma%5Einfty%20X_%2B). Thus, the slice spectral sequence takes the form:
 
-\[ E_2^{p,q} = H_{\text{mot}}^p(X, \mathbb{Z}(q)) \implies H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m)). \]
+![E_2^{p,q} = H_{\text{mot}}^p(X, \mathbb{Z}(q)) \implies H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?E_2%5E%7Bp%2Cq%7D%20%3D%20H_%7B%5Ctext%7Bmot%7D%7D%5Ep(X%2C%20%5Cmathbb%7BZ%7D(q))%20%5Cimplies%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7Bp%2Bq%7D(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Step 2: Convergence of the Spectral Sequence**
 
-We prove that the slice spectral sequence converges to the motivic cohomology groups under certain boundedness conditions. The key criterion for convergence is that the motivic spectrum \( E \) is bounded below in terms of motivic weights and degrees.
+We prove that the slice spectral sequence converges to the motivic cohomology groups under certain boundedness conditions. The key criterion for convergence is that the motivic spectrum ![E](https://latex.codecogs.com/svg.latex?E) is bounded below in terms of motivic weights and degrees.
 
 **Boundedness Condition:**
 
-The motivic filtration on \( E \) is said to be bounded below if there exists an integer \( N \) such that for all \( n < N \), the higher slices \( s_n E \) vanish. For smooth, projective varieties \( X \), the boundedness of the slices is guaranteed by the vanishing of motivic cohomology in degrees greater than twice the dimension of the variety \( X \). Specifically, for \( X \) of dimension \( d \):
+The motivic filtration on ![E](https://latex.codecogs.com/svg.latex?E) is said to be bounded below if there exists an integer ![N](https://latex.codecogs.com/svg.latex?N) such that for all ![n < N](https://latex.codecogs.com/svg.latex?n%20%3C%20N), the higher slices ![s_n E](https://latex.codecogs.com/svg.latex?s_n%20E) vanish. For smooth, projective varieties ![X](https://latex.codecogs.com/svg.latex?X), the boundedness of the slices is guaranteed by the vanishing of motivic cohomology in degrees greater than twice the dimension of the variety ![X](https://latex.codecogs.com/svg.latex?X). Specifically, for ![X](https://latex.codecogs.com/svg.latex?X) of dimension ![d](https://latex.codecogs.com/svg.latex?d):
 
-\[ H_{\text{mot}}^n(X, \mathbb{Z}(m)) = 0 \quad \text{for } n > 2d. \]
+![H_{\text{mot}}^n(X, \mathbb{Z}(m)) = 0 \quad \text{for } n > 2d](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%20%3D%200%20%5Cquad%20%5Ctext%7Bfor%7D%20n%20%3E%202d).
 
-Hence, the spectral sequence converges strongly to \( H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m)) \).
+Hence, the spectral sequence converges strongly to ![H_{\text{mot}}^{p+q}(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5E%7Bp%2Bq%7D(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Step 3: Functoriality of the Spectral Sequence**
 
-The motivic filtration is functorial for morphisms of varieties. Given a morphism \( f: X \to Y \), we have a corresponding map of spectra \( f^*: E_Y \to E_X \), which respects the slice filtration. This ensures that the spectral sequence is functorial for maps of smooth varieties, preserving the structure of the filtration under pullbacks and pushforwards.
+The motivic filtration is functorial for morphisms of varieties. Given a morphism ![f: X \to Y](https://latex.codecogs.com/svg.latex?f%3A%20X%20%5Cto%20Y), we have a corresponding map of spectra ![f^*: E_Y \to E_X](https://latex.codecogs.com/svg.latex?f%5E%2A%3A%20E_Y%20%5Cto%20E_X), which respects the slice filtration. This ensures that the spectral sequence is functorial for maps of smooth varieties, preserving the structure of the filtration under pullbacks and pushforwards.
 
 **Step 4: Stability under Blow-ups**
 
-Next, we establish that the slice spectral sequence is stable under blow-ups. Let \( \tilde{X} \) be a blow-up of \( X \) along a smooth center \( Z \). The behavior of motivic cohomology under blow-ups is governed by the blow-up formula in motivic homotopy theory:
+Next, we establish that the slice spectral sequence is stable under blow-ups. Let ![\tilde{X}](https://latex.codecogs.com/svg.latex?%5Ctilde%7BX%7D) be a blow-up of ![X](https://latex.codecogs.com/svg.latex?X) along a smooth center ![Z](https://latex.codecogs.com/svg.latex?Z). The behavior of motivic cohomology under blow-ups is governed by the blow-up formula in motivic homotopy theory:
 
-\[ H_{\text{mot}}^n(\tilde{X}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)) \oplus \bigoplus_{i} H_{\text{mot}}^{n-2i}(Z, \mathbb{Z}(m-i)). \]
+![H_{\text{mot}}^n(\tilde{X}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)) \oplus \bigoplus_{i} H_{\text{mot}}^{n-2i}(Z, \mathbb{Z}(m-i))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(%5Ctilde%7BX%7D%2C%20%5Cmathbb%7BZ%7D(m))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))%20%5Coplus%20%5Cbigoplus_%7Bi%7D%20H_%7B%5Ctext%7Bmot%7D%7D%5E%7Bn-2i%7D(Z%2C%20%5Cmathbb%7BZ%7D(m-i))).
 
 However, due to the exactness properties and the vanishing of certain cohomology groups, this simplifies to:
 
-\[ H_{\text{mot}}^n(\tilde{X}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m)). \]
+![H_{\text{mot}}^n(\tilde{X}, \mathbb{Z}(m)) \cong H_{\text{mot}}^n(X, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(%5Ctilde%7BX%7D%2C%20%5Cmathbb%7BZ%7D(m))%20%5Ccong%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X%2C%20%5Cmathbb%7BZ%7D(m))).
 
 **Step 5: Stability under Degenerations**
 
-Finally, we consider the stability of the spectral sequence under degenerations. Let \( X_t \) be a family of varieties degenerating to a singular variety \( X_0 \). If the degeneration is sufficiently mild (e.g., a nodal degeneration), the motivic cohomology remains stable through the degeneration. This follows from the fact that motivic cohomology satisfies a localization sequence:
+Finally, we consider the stability of the spectral sequence under degenerations. Let ![X_t](https://latex.codecogs.com/svg.latex?X_t) be a family of varieties degenerating to a singular variety ![X_0](https://latex.codecogs.com/svg.latex?X_0). If the degeneration is sufficiently mild (e.g., a nodal degeneration), the motivic cohomology remains stable through the degeneration. This follows from the fact that motivic cohomology satisfies a localization sequence:
 
-\[ H_{\text{mot}}^n(X_0, \mathbb{Z}(m)) \to H_{\text{mot}}^n(X_t, \mathbb{Z}(m)) \to H_{\text{mot}}^n(X_t \setminus X_0, \mathbb{Z}(m)). \]
+![H_{\text{mot}}^n(X_0, \mathbb{Z}(m)) \to H_{\text{mot}}^n(X_t, \mathbb{Z}(m)) \to H_{\text{mot}}^n(X_t \setminus X_0, \mathbb{Z}(m))](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(X_0%2C%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X_t%2C%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7Bmot%7D%7D%5En(X_t%20%5Csetminus%20X_0%2C%20%5Cmathbb%7BZ%7D(m))).
 
-Thus, we have shown that the slice spectral sequence for the motivic cohomology of a smooth, projective variety \( X \) converges to the motivic cohomology groups, and this stability holds under blow-ups and mild degenerations.
+Thus, we have shown that the slice spectral sequence for the motivic cohomology of a smooth, projective variety ![X](https://latex.codecogs.com/svg.latex?X) converges to the motivic cohomology groups, and this stability holds under blow-ups and mild degenerations.
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
