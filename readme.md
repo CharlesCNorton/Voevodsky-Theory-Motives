@@ -2,7 +2,7 @@
 
 **By:** Charles Norton & GPT-4 
 
-**Last Updated:** October 2nd, 2024
+**Last Updated:** October 3rd, 2024
 
 ## Table of Contents
 
