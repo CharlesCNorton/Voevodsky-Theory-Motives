@@ -4,7 +4,7 @@
 
 **Last Updated:** October 3rd, 2024
 
-**Dedicated to Vladimir Voevodsky**
+**Dedicated to the memory of Vladimir Voevodsky**
 
 ## Table of Contents
 
