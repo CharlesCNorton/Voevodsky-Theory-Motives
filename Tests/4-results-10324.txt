@@ -1,0 +1,74 @@
+=== Stability Results ===
+Elliptic Curve: Stable = True, Sum of Eigenvalues = 2.0703754999999995
+Shimura Variety (High-Dim): Stable = True, Sum of Eigenvalues = 10.351877499999999
+K3 Surface (High-Dim): Stable = True, Sum of Eigenvalues = 22.774130499999988
+Siegel Modular Variety (High-Dim): Stable = True, Sum of Eigenvalues = 12.422253
+Hilbert Modular Surface (High-Dim): Stable = True, Sum of Eigenvalues = 15.52781625
+Tensor(Elliptic Curve, Shimura Variety (High-Dim)): Stable = True, Sum of Eigenvalues = 20.70375499999999
+Dual(Shimura Variety (High-Dim)): Stable = True, Sum of Eigenvalues = 10.351877499999999
+Triangulate(Shimura Variety (High-Dim), K3 Surface (High-Dim)): Stable = True, Sum of Eigenvalues = 33.126007999999985
+Kummer Extension: Stable = True, Sum of Eigenvalues = 2.9999999999999996
+Artin-Schreier Extension: Stable = True, Sum of Eigenvalues = 2.04
+Witt Vector Field: Stable = True, Sum of Eigenvalues = 4.026666666666667
+High-Dim Variety 50D: Stable = True, Sum of Eigenvalues = 51.759387499999974
+High-Dim Variety 100D: Stable = True, Sum of Eigenvalues = 103.518775
+High-Dim Variety 150D: Stable = True, Sum of Eigenvalues = 155.2781625
+High-Dim Variety 200D: Stable = True, Sum of Eigenvalues = 207.03754999999998
+High-Dim Variety 250D: Stable = True, Sum of Eigenvalues = 258.7969375
+Random Complex Motive 1: Stable = True, Sum of Eigenvalues = (99.21045380375877+4.440892098500626e-16j)
+Random Complex Motive 2: Stable = True, Sum of Eigenvalues = (141.61934612552608-3.6637359812630166e-15j)
+Random Complex Motive 3: Stable = True, Sum of Eigenvalues = (107.00430512666824-8.881784197001252e-16j)
+Random Complex Motive 4: Stable = True, Sum of Eigenvalues = (181.26588556506567+4.884981308350689e-15j)
+Random Complex Motive 5: Stable = True, Sum of Eigenvalues = (244.89685740858195-7.993605777301127e-15j)
+
+=== L-function Results ===
+Elliptic Curve: L(s) = 7.171037104959727
+Shimura Variety: L(s) = 11.081229541670927
+K3 Surface: L(s) = 5.502645459164792
+Siegel Modular Variety: L(s) = 3.1727687799589597
+Hilbert Modular Surface: L(s) = 8.647636675148295
+
+=== Exact Sequence Euler Characteristics ===
+Cohomology Group 1: Euler Characteristic = 0
+Cohomology Group 2: Euler Characteristic = 40
+Cohomology Group 3: Euler Characteristic = 0
+Cohomology Group 4: Euler Characteristic = 80
+Cohomology Group 5: Euler Characteristic = 0
+
+=== Cohomology Results ===
+Cohomology Group 1:
+  Cohomology Value: 4.77976708535059
+  Perturbed Matrix: [Matrix of dimension 20]
+  Differential Operator Result: -0.866364154342552*x*sin(x*y) + 0.866364154342552*x*cos(x*y) - 0.88219152824108*y*sin(x*y) + 0.88219152824108*y*cos(x*y)
+
+Cohomology Group 2:
+  Cohomology Value: 14.237645875053827
+  Perturbed Matrix: [Matrix of dimension 40]
+  Differential Operator Result: -1.17386997943262*x*sin(x*y) + 1.17386997943262*x*cos(x*y) - 1.09705129419516*y*sin(x*y) + 1.09705129419516*y*cos(x*y)
+
+Cohomology Group 3:
+  Cohomology Value: 19.328034447016222
+  Perturbed Matrix: [Matrix of dimension 60]
+  Differential Operator Result: -1.18293976891478*x*sin(x*y) + 1.18293976891478*x*cos(x*y) - 0.82040139018892*y*sin(x*y) + 0.82040139018892*y*cos(x*y)
+
+Cohomology Group 4:
+  Cohomology Value: 23.015818863424393
+  Perturbed Matrix: [Matrix of dimension 80]
+  Differential Operator Result: -1.17671379138013*x*sin(x*y) + 1.17671379138013*x*cos(x*y) - 1.15190661707898*y*sin(x*y) + 1.15190661707898*y*cos(x*y)
+
+Cohomology Group 5:
+  Cohomology Value: 26.031878378570934
+  Perturbed Matrix: [Matrix of dimension 100]
+  Differential Operator Result: -1.08169772810562*x*sin(x*y) + 1.08169772810562*x*cos(x*y) - 1.0530103740218*y*sin(x*y) + 1.0530103740218*y*cos(x*y)
+
+=== Codimension Cycle Intersections ===
+Cycle 1 ∩ Cycle 2: Total Codimension = 3
+Cycle 1 ∩ Cycle 3: Total Codimension = 5
+Cycle 1 ∩ Cycle 4: Total Codimension = 3
+Cycle 1 ∩ Cycle 5: Total Codimension = 4
+Cycle 2 ∩ Cycle 3: Total Codimension = 4
+Cycle 2 ∩ Cycle 4: Total Codimension = 2
+Cycle 2 ∩ Cycle 5: Total Codimension = 3
+Cycle 3 ∩ Cycle 4: Total Codimension = 4
+Cycle 3 ∩ Cycle 5: Total Codimension = 5
+Cycle 4 ∩ Cycle 5: Total Codimension = 3
