@@ -121,8 +121,6 @@ where ![H_{\text{B}}^n(X, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?H
 - Over a ![p](https://latex.codecogs.com/svg.latex?p)-adic field, the regulator targets étale cohomology ![H_{\text{et}}^n(X, \mathbb{Q}_p)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bet%7D%7D%5En(X,%20%5Cmathbb%7BQ_p%7D)).
 - For varieties in characteristic ![p](https://latex.codecogs.com/svg.latex?p), it may target crystalline cohomology.
 
-
-
 ---
 
 ## 2. Main Theorem: Motivic Cohomology, \( L \)-functions, and Higher \( K \)-theory
@@ -315,57 +313,57 @@ Thus, the lemma is proved.
 
 **Statement:**
 
-For an automorphic form \( f \) on a Shimura variety \( S \), the motivic \( L \)-function is computed as:
+For an automorphic form ![f](https://latex.codecogs.com/svg.latex?f) on a Shimura variety ![S](https://latex.codecogs.com/svg.latex?S), the motivic ![L](https://latex.codecogs.com/svg.latex?L)-function is computed as:
 
-\[ L(s, f) = \int_{\mathcal{M}(S)} r\left(H_{\text{mot}}^n(S, \mathbb{Z}(m))\right) \, ds. \]
+![L(s, f) = \int_{\mathcal{M}(S)} r\left(H_{\text{mot}}^n(S, \mathbb{Z}(m))\right) \, ds](https://latex.codecogs.com/svg.latex?L(s%2C%20f)%20%3D%20%5Cint_%7B%5Cmathcal%7BM%7D(S)%7D%20r%5Cleft(H_%7B%5Ctext%7Bmot%7D%7D%5En(S%2C%20%5Cmathbb%7BZ%7D(m))%5Cright)%20%5C%2C%20ds).
 
 **Proof of Lemma 3.3**
 
 **Step 1: Automorphic Forms and Shimura Varieties**
 
-An automorphic form is a complex-valued function that transforms in a specific way under the action of a reductive algebraic group \( G \), defined over a number field. Automorphic forms arise in the context of the Langlands Program, which connects representations of the absolute Galois group of a number field to automorphic representations of reductive groups.
+An automorphic form is a complex-valued function that transforms in a specific way under the action of a reductive algebraic group ![G](https://latex.codecogs.com/svg.latex?G), defined over a number field. Automorphic forms arise in the context of the Langlands Program, which connects representations of the absolute Galois group of a number field to automorphic representations of reductive groups.
 
 Shimura varieties, such as modular curves, are moduli spaces of abelian varieties with additional structure. These varieties play a critical role in the study of automorphic forms because they are the geometric objects on which automorphic forms naturally live.
 
 **Step 2: Motivic Cohomology of Shimura Varieties**
 
-The motivic cohomology of the Shimura variety \( S \) is a graded object:
+The motivic cohomology of the Shimura variety ![S](https://latex.codecogs.com/svg.latex?S) is a graded object:
 
-\[ H_{\text{mot}}^n(S, \mathbb{Z}(m)) := \operatorname{Ext}^n_{\mathcal{M}(k)}\left(\mathbb{Z}(0), \mathcal{M}(S)(m)\right). \]
+![H_{\text{mot}}^n(S, \mathbb{Z}(m)) := \operatorname{Ext}^n_{\mathcal{M}(k)}\left(\mathbb{Z}(0), \mathcal{M}(S)(m)\right)](https://latex.codecogs.com/svg.latex?H_%7B%5Ctext%7Bmot%7D%7D%5En(S%2C%20%5Cmathbb%7BZ%7D(m))%20%3A%3D%20%5Coperatorname%7BExt%7D%5En_%7B%5Cmathcal%7BM%7D(k)%7D%5Cleft(%5Cmathbb%7BZ%7D(0)%2C%20%5Cmathcal%7BM%7D(S)(m)%5Cright)).
 
-These motivic cohomology groups provide a universal cohomology theory that encapsulates the arithmetic properties of \( S \).
+These motivic cohomology groups provide a universal cohomology theory that encapsulates the arithmetic properties of ![S](https://latex.codecogs.com/svg.latex?S).
 
 **Step 3: Bloch-Kato Regulator and Periods**
 
-The Bloch-Kato regulator map relates motivic cohomology to periods and special values of \( L \)-functions:
+The Bloch-Kato regulator map relates motivic cohomology to periods and special values of ![L](https://latex.codecogs.com/svg.latex?L)-functions:
 
-\[ r: H_{\text{mot}}^n(S, \mathbb{Z}(m)) \to H_{\text{B}}^n(S, \mathbb{R}(m)). \]
+![r: H_{\text{mot}}^n(S, \mathbb{Z}(m)) \to H_{\text{B}}^n(S, \mathbb{R}(m))](https://latex.codecogs.com/svg.latex?r%3A%20H_%7B%5Ctext%7Bmot%7D%7D%5En(S%2C%20%5Cmathbb%7BZ%7D(m))%20%5Cto%20H_%7B%5Ctext%7BB%7D%7D%5En(S%2C%20%5Cmathbb%7BR%7D(m))).
 
 For automorphic forms on Shimura varieties, the periods arising from the regulator map provide the bridge between the arithmetic and geometric aspects of the variety.
 
 **Step 4: \( L \)-functions of Automorphic Forms**
 
-The \( L \)-function associated with an automorphic form \( f \) on the Shimura variety \( S \) is defined as a Dirichlet series:
+The ![L](https://latex.codecogs.com/svg.latex?L)-function associated with an automorphic form ![f](https://latex.codecogs.com/svg.latex?f) on the Shimura variety ![S](https://latex.codecogs.com/svg.latex?S) is defined as a Dirichlet series:
 
-\[ L(s, f) = \prod_v L_v(s, f), \]
+![L(s, f) = \prod_v L_v(s, f)](https://latex.codecogs.com/svg.latex?L(s%2C%20f)%20%3D%20%5Cprod_v%20L_v(s%2C%20f)),
 
-where the product is over all places \( v \) of the number field, and \( L_v(s, f) \) denotes the local factors.
+where the product is over all places ![v](https://latex.codecogs.com/svg.latex?v) of the number field, and ![L_v(s, f)](https://latex.codecogs.com/svg.latex?L_v(s%2C%20f)) denotes the local factors.
 
 **Step 5: Motivic \( L \)-functions and Automorphic Forms**
 
-The motivic \( L \)-function associated with the Shimura variety \( S \) is defined as:
+The motivic ![L](https://latex.codecogs.com/svg.latex?L)-function associated with the Shimura variety ![S](https://latex.codecogs.com/svg.latex?S) is defined as:
 
-\[ L(s, \mathcal{M}(S)) = \int_{\mathcal{M}(S)} r\left(H_{\text{mot}}^n(S, \mathbb{Z}(m))\right) \, ds. \]
+![L(s, \mathcal{M}(S)) = \int_{\mathcal{M}(S)} r\left(H_{\text{mot}}^n(S, \mathbb{Z}(m))\right) \, ds](https://latex.codecogs.com/svg.latex?L(s%2C%20%5Cmathcal%7BM%7D(S))%20%3D%20%5Cint_%7B%5Cmathcal%7BM%7D(S)%7D%20r%5Cleft(H_%7B%5Ctext%7Bmot%7D%7D%5En(S%2C%20%5Cmathbb%7BZ%7D(m))%5Cright)%20%5C%2C%20ds).
 
-To complete the connection between automorphic forms and motivic \( L \)-functions, we show that the motivic \( L \)-function \( L(s, \mathcal{M}(S)) \) encodes the same information as the \( L \)-function \( L(s, f) \) associated with the automorphic form \( f \). This correspondence follows from the fact that the motivic cohomology groups of \( S \) are expected to capture the arithmetic properties of automorphic forms on \( S \), and the regulator map provides the explicit link between these two types of \( L \)-functions.
+To complete the connection between automorphic forms and motivic ![L](https://latex.codecogs.com/svg.latex?L)-functions, we show that the motivic ![L](https://latex.codecogs.com/svg.latex?L)-function ![L(s, \mathcal{M}(S))](https://latex.codecogs.com/svg.latex?L(s%2C%20%5Cmathcal%7BM%7D(S))) encodes the same information as the ![L](https://latex.codecogs.com/svg.latex?L)-function ![L(s, f)](https://latex.codecogs.com/svg.latex?L(s%2C%20f)) associated with the automorphic form ![f](https://latex.codecogs.com/svg.latex?f). This correspondence follows from the fact that the motivic cohomology groups of ![S](https://latex.codecogs.com/svg.latex?S) are expected to capture the arithmetic properties of automorphic forms on ![S](https://latex.codecogs.com/svg.latex?S), and the regulator map provides the explicit link between these two types of ![L](https://latex.codecogs.com/svg.latex?L)-functions.
 
 **Step 6: Conclusion**
 
-Thus, the motivic \( L \)-function associated with the Shimura variety \( S \) computes the special values of the \( L \)-function of an automorphic form \( f \) on \( S \). Specifically, we have:
+Thus, the motivic ![L](https://latex.codecogs.com/svg.latex?L)-function associated with the Shimura variety ![S](https://latex.codecogs.com/svg.latex?S) computes the special values of the ![L](https://latex.codecogs.com/svg.latex?L)-function of an automorphic form ![f](https://latex.codecogs.com/svg.latex?f) on ![S](https://latex.codecogs.com/svg.latex?S). Specifically, we have:
 
-\[ L(s, f) = \int_{\mathcal{M}(S)} r\left(H_{\text{mot}}^n(S, \mathbb{Z}(m))\right) \, ds. \]
+![L(s, f) = \int_{\mathcal{M}(S)} r\left(H_{\text{mot}}^n(S, \mathbb{Z}(m))\right) \, ds](https://latex.codecogs.com/svg.latex?L(s%2C%20f)%20%3D%20%5Cint_%7B%5Cmathcal%7BM%7D(S)%7D%20r%5Cleft(H_%7B%5Ctext%7Bmot%7D%7D%5En(S%2C%20%5Cmathbb%7BZ%7D(m))%5Cright)%20%5C%2C%20ds).
 
-\[\boxed{\text{Q.E.D.}}\]
+![\boxed{\text{Q.E.D.}}](https://latex.codecogs.com/svg.latex?%5Cboxed%7B%5Ctext%7BQ.E.D.%7D%7D)
 
 ---
 
