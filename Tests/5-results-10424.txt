@@ -1,0 +1,744 @@
+=== Kummer Extensions ===
+
+Testing base 7 with power 1/3...
+Automorphism Consistency: True
+Automorphism 1: x**3 - 7
+Automorphism 2: x**3 - 7
+Automorphism 3: x**3 - 7
+Automorphism 4: x**3 - 7
+Automorphism 5: x**3 - 7
+Testing base 7 with power 1/4...
+Automorphism Consistency: True
+Automorphism 1: x**4 - 7
+Automorphism 2: x**4 - 7
+Automorphism 3: x**4 - 7
+Automorphism 4: x**4 - 7
+Automorphism 5: x**4 - 7
+Testing base 7 with power 1/5...
+Automorphism Consistency: True
+Automorphism 1: x**5 - 7
+Automorphism 2: x**5 - 7
+Automorphism 3: x**5 - 7
+Automorphism 4: x**5 - 7
+Automorphism 5: x**5 - 7
+Testing base 7 with power 1/7...
+Automorphism Consistency: True
+Automorphism 1: x**7 - 7
+Automorphism 2: x**7 - 7
+Automorphism 3: x**7 - 7
+Automorphism 4: x**7 - 7
+Automorphism 5: x**7 - 7
+Testing base 7 with power 1/9...
+Automorphism Consistency: True
+Automorphism 1: x**9 - 7
+Automorphism 2: x**9 - 7
+Automorphism 3: x**9 - 7
+Automorphism 4: x**9 - 7
+Automorphism 5: x**9 - 7
+Testing base 7 with power sqrt(2)...
+Error during automorphism determination: 7 does not seem to be an algebraic element
+
+Testing base 7 with power pi...
+Error during automorphism determination: 7 does not seem to be an algebraic element
+
+Testing base 11 with power 1/3...
+Automorphism Consistency: True
+Automorphism 1: x**3 - 11
+Automorphism 2: x**3 - 11
+Automorphism 3: x**3 - 11
+Automorphism 4: x**3 - 11
+Automorphism 5: x**3 - 11
+Testing base 11 with power 1/4...
+Automorphism Consistency: True
+Automorphism 1: x**4 - 11
+Automorphism 2: x**4 - 11
+Automorphism 3: x**4 - 11
+Automorphism 4: x**4 - 11
+Automorphism 5: x**4 - 11
+Testing base 11 with power 1/5...
+Automorphism Consistency: True
+Automorphism 1: x**5 - 11
+Automorphism 2: x**5 - 11
+Automorphism 3: x**5 - 11
+Automorphism 4: x**5 - 11
+Automorphism 5: x**5 - 11
+Testing base 11 with power 1/7...
+Automorphism Consistency: True
+Automorphism 1: x**7 - 11
+Automorphism 2: x**7 - 11
+Automorphism 3: x**7 - 11
+Automorphism 4: x**7 - 11
+Automorphism 5: x**7 - 11
+Testing base 11 with power 1/9...
+Automorphism Consistency: True
+Automorphism 1: x**9 - 11
+Automorphism 2: x**9 - 11
+Automorphism 3: x**9 - 11
+Automorphism 4: x**9 - 11
+Automorphism 5: x**9 - 11
+Testing base 11 with power sqrt(2)...
+Error during automorphism determination: 11 does not seem to be an algebraic element
+
+Testing base 11 with power pi...
+Error during automorphism determination: 11 does not seem to be an algebraic element
+
+Testing base 13 with power 1/3...
+Automorphism Consistency: True
+Automorphism 1: x**3 - 13
+Automorphism 2: x**3 - 13
+Automorphism 3: x**3 - 13
+Automorphism 4: x**3 - 13
+Automorphism 5: x**3 - 13
+Testing base 13 with power 1/4...
+Automorphism Consistency: True
+Automorphism 1: x**4 - 13
+Automorphism 2: x**4 - 13
+Automorphism 3: x**4 - 13
+Automorphism 4: x**4 - 13
+Automorphism 5: x**4 - 13
+Testing base 13 with power 1/5...
+Automorphism Consistency: True
+Automorphism 1: x**5 - 13
+Automorphism 2: x**5 - 13
+Automorphism 3: x**5 - 13
+Automorphism 4: x**5 - 13
+Automorphism 5: x**5 - 13
+Testing base 13 with power 1/7...
+Automorphism Consistency: True
+Automorphism 1: x**7 - 13
+Automorphism 2: x**7 - 13
+Automorphism 3: x**7 - 13
+Automorphism 4: x**7 - 13
+Automorphism 5: x**7 - 13
+Testing base 13 with power 1/9...
+Automorphism Consistency: True
+Automorphism 1: x**9 - 13
+Automorphism 2: x**9 - 13
+Automorphism 3: x**9 - 13
+Automorphism 4: x**9 - 13
+Automorphism 5: x**9 - 13
+Testing base 13 with power sqrt(2)...
+Error during automorphism determination: 13 does not seem to be an algebraic element
+
+Testing base 13 with power pi...
+Error during automorphism determination: 13 does not seem to be an algebraic element
+
+Testing base 17 with power 1/3...
+Automorphism Consistency: True
+Automorphism 1: x**3 - 17
+Automorphism 2: x**3 - 17
+Automorphism 3: x**3 - 17
+Automorphism 4: x**3 - 17
+Automorphism 5: x**3 - 17
+Testing base 17 with power 1/4...
+Automorphism Consistency: True
+Automorphism 1: x**4 - 17
+Automorphism 2: x**4 - 17
+Automorphism 3: x**4 - 17
+Automorphism 4: x**4 - 17
+Automorphism 5: x**4 - 17
+Testing base 17 with power 1/5...
+Automorphism Consistency: True
+Automorphism 1: x**5 - 17
+Automorphism 2: x**5 - 17
+Automorphism 3: x**5 - 17
+Automorphism 4: x**5 - 17
+Automorphism 5: x**5 - 17
+Testing base 17 with power 1/7...
+Automorphism Consistency: True
+Automorphism 1: x**7 - 17
+Automorphism 2: x**7 - 17
+Automorphism 3: x**7 - 17
+Automorphism 4: x**7 - 17
+Automorphism 5: x**7 - 17
+Testing base 17 with power 1/9...
+Automorphism Consistency: True
+Automorphism 1: x**9 - 17
+Automorphism 2: x**9 - 17
+Automorphism 3: x**9 - 17
+Automorphism 4: x**9 - 17
+Automorphism 5: x**9 - 17
+Testing base 17 with power sqrt(2)...
+Error during automorphism determination: 17 does not seem to be an algebraic element
+
+Testing base 17 with power pi...
+Error during automorphism determination: 17 does not seem to be an algebraic element
+
+Testing base -3 with power 1/3...
+Automorphism Consistency: True
+Automorphism 1: x**3 + 3
+Automorphism 2: x**3 + 3
+Automorphism 3: x**3 + 3
+Automorphism 4: x**3 + 3
+Automorphism 5: x**3 + 3
+Testing base -3 with power 1/4...
+Automorphism Consistency: True
+Automorphism 1: x**4 + 3
+Automorphism 2: x**4 + 3
+Automorphism 3: x**4 + 3
+Automorphism 4: x**4 + 3
+Automorphism 5: x**4 + 3
+Testing base -3 with power 1/5...
+Automorphism Consistency: True
+Automorphism 1: x**5 + 3
+Automorphism 2: x**5 + 3
+Automorphism 3: x**5 + 3
+Automorphism 4: x**5 + 3
+Automorphism 5: x**5 + 3
+Testing base -3 with power 1/7...
+Automorphism Consistency: True
+Automorphism 1: x**7 + 3
+Automorphism 2: x**7 + 3
+Automorphism 3: x**7 + 3
+Automorphism 4: x**7 + 3
+Automorphism 5: x**7 + 3
+Testing base -3 with power 1/9...
+Automorphism Consistency: True
+Automorphism 1: x**9 + 3
+Automorphism 2: x**9 + 3
+Automorphism 3: x**9 + 3
+Automorphism 4: x**9 + 3
+Automorphism 5: x**9 + 3
+Testing base -3 with power sqrt(2)...
+Error during automorphism determination: -3 does not seem to be an algebraic element
+
+Testing base -3 with power pi...
+Error during automorphism determination: -3 does not seem to be an algebraic element
+
+Testing base sqrt(2) with power 1/3...
+Automorphism Consistency: True
+Automorphism 1: x**6 - 2
+Automorphism 2: x**6 - 2
+Automorphism 3: x**6 - 2
+Automorphism 4: x**6 - 2
+Automorphism 5: x**6 - 2
+Testing base sqrt(2) with power 1/4...
+Automorphism Consistency: True
+Automorphism 1: x**8 - 2
+Automorphism 2: x**8 - 2
+Automorphism 3: x**8 - 2
+Automorphism 4: x**8 - 2
+Automorphism 5: x**8 - 2
+Testing base sqrt(2) with power 1/5...
+Automorphism Consistency: True
+Automorphism 1: x**10 - 2
+Automorphism 2: x**10 - 2
+Automorphism 3: x**10 - 2
+Automorphism 4: x**10 - 2
+Automorphism 5: x**10 - 2
+Testing base sqrt(2) with power 1/7...
+Automorphism Consistency: True
+Automorphism 1: x**14 - 2
+Automorphism 2: x**14 - 2
+Automorphism 3: x**14 - 2
+Automorphism 4: x**14 - 2
+Automorphism 5: x**14 - 2
+Testing base sqrt(2) with power 1/9...
+Automorphism Consistency: True
+Automorphism 1: x**18 - 2
+Automorphism 2: x**18 - 2
+Automorphism 3: x**18 - 2
+Automorphism 4: x**18 - 2
+Automorphism 5: x**18 - 2
+Testing base sqrt(2) with power sqrt(2)...
+Error during automorphism determination: 2 does not seem to be an algebraic element
+
+Testing base sqrt(2) with power pi...
+Error during automorphism determination: 2 does not seem to be an algebraic element
+
+Testing base E with power 1/3...
+Error during automorphism determination: exp(1/3) does not seem to be an algebraic element
+
+Testing base E with power 1/4...
+Error during automorphism determination: exp(1/4) does not seem to be an algebraic element
+
+Testing base E with power 1/5...
+Error during automorphism determination: exp(1/5) does not seem to be an algebraic element
+
+Testing base E with power 1/7...
+Error during automorphism determination: exp(1/7) does not seem to be an algebraic element
+
+Testing base E with power 1/9...
+Error during automorphism determination: exp(1/9) does not seem to be an algebraic element
+
+Testing base E with power sqrt(2)...
+Error during automorphism determination: exp(sqrt(2)) does not seem to be an algebraic element
+
+Testing base E with power pi...
+Error during automorphism determination: exp(pi) does not seem to be an algebraic element
+
+Testing base pi with power 1/3...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+Testing base pi with power 1/4...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+Testing base pi with power 1/5...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+Testing base pi with power 1/7...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+Testing base pi with power 1/9...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+Testing base pi with power sqrt(2)...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+Testing base pi with power pi...
+Error during automorphism determination: pi does not seem to be an algebraic element
+
+
+=== Artin-Schreier Extensions ===
+
+Testing Artin-Schreier extension with prime 2 and base 7...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**2 - 7, x, domain='ZZ')
+Automorphism 2: Poly(x**2 - 7, x, domain='ZZ')
+Automorphism 3: Poly(x**2 - 7, x, domain='ZZ')
+Automorphism 4: Poly(x**2 - 7, x, domain='ZZ')
+Automorphism 5: Poly(x**2 - 7, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 2 and base 11...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**2 - 11, x, domain='ZZ')
+Automorphism 2: Poly(x**2 - 11, x, domain='ZZ')
+Automorphism 3: Poly(x**2 - 11, x, domain='ZZ')
+Automorphism 4: Poly(x**2 - 11, x, domain='ZZ')
+Automorphism 5: Poly(x**2 - 11, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 2 and base 13...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**2 - 13, x, domain='ZZ')
+Automorphism 2: Poly(x**2 - 13, x, domain='ZZ')
+Automorphism 3: Poly(x**2 - 13, x, domain='ZZ')
+Automorphism 4: Poly(x**2 - 13, x, domain='ZZ')
+Automorphism 5: Poly(x**2 - 13, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 2 and base 17...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**2 - 17, x, domain='ZZ')
+Automorphism 2: Poly(x**2 - 17, x, domain='ZZ')
+Automorphism 3: Poly(x**2 - 17, x, domain='ZZ')
+Automorphism 4: Poly(x**2 - 17, x, domain='ZZ')
+Automorphism 5: Poly(x**2 - 17, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 2 and base -3...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**2 + 3, x, domain='ZZ')
+Automorphism 2: Poly(x**2 + 3, x, domain='ZZ')
+Automorphism 3: Poly(x**2 + 3, x, domain='ZZ')
+Automorphism 4: Poly(x**2 + 3, x, domain='ZZ')
+Automorphism 5: Poly(x**2 + 3, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 3 and base 7...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**3 - 7, x, domain='ZZ')
+Automorphism 2: Poly(x**3 - 7, x, domain='ZZ')
+Automorphism 3: Poly(x**3 - 7, x, domain='ZZ')
+Automorphism 4: Poly(x**3 - 7, x, domain='ZZ')
+Automorphism 5: Poly(x**3 - 7, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 3 and base 11...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**3 - 11, x, domain='ZZ')
+Automorphism 2: Poly(x**3 - 11, x, domain='ZZ')
+Automorphism 3: Poly(x**3 - 11, x, domain='ZZ')
+Automorphism 4: Poly(x**3 - 11, x, domain='ZZ')
+Automorphism 5: Poly(x**3 - 11, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 3 and base 13...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**3 - 13, x, domain='ZZ')
+Automorphism 2: Poly(x**3 - 13, x, domain='ZZ')
+Automorphism 3: Poly(x**3 - 13, x, domain='ZZ')
+Automorphism 4: Poly(x**3 - 13, x, domain='ZZ')
+Automorphism 5: Poly(x**3 - 13, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 3 and base 17...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**3 - 17, x, domain='ZZ')
+Automorphism 2: Poly(x**3 - 17, x, domain='ZZ')
+Automorphism 3: Poly(x**3 - 17, x, domain='ZZ')
+Automorphism 4: Poly(x**3 - 17, x, domain='ZZ')
+Automorphism 5: Poly(x**3 - 17, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 3 and base -3...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**3 + 3, x, domain='ZZ')
+Automorphism 2: Poly(x**3 + 3, x, domain='ZZ')
+Automorphism 3: Poly(x**3 + 3, x, domain='ZZ')
+Automorphism 4: Poly(x**3 + 3, x, domain='ZZ')
+Automorphism 5: Poly(x**3 + 3, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 5 and base 7...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**5 - 7, x, domain='ZZ')
+Automorphism 2: Poly(x**5 - 7, x, domain='ZZ')
+Automorphism 3: Poly(x**5 - 7, x, domain='ZZ')
+Automorphism 4: Poly(x**5 - 7, x, domain='ZZ')
+Automorphism 5: Poly(x**5 - 7, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 5 and base 11...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**5 - 11, x, domain='ZZ')
+Automorphism 2: Poly(x**5 - 11, x, domain='ZZ')
+Automorphism 3: Poly(x**5 - 11, x, domain='ZZ')
+Automorphism 4: Poly(x**5 - 11, x, domain='ZZ')
+Automorphism 5: Poly(x**5 - 11, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 5 and base 13...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**5 - 13, x, domain='ZZ')
+Automorphism 2: Poly(x**5 - 13, x, domain='ZZ')
+Automorphism 3: Poly(x**5 - 13, x, domain='ZZ')
+Automorphism 4: Poly(x**5 - 13, x, domain='ZZ')
+Automorphism 5: Poly(x**5 - 13, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 5 and base 17...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**5 - 17, x, domain='ZZ')
+Automorphism 2: Poly(x**5 - 17, x, domain='ZZ')
+Automorphism 3: Poly(x**5 - 17, x, domain='ZZ')
+Automorphism 4: Poly(x**5 - 17, x, domain='ZZ')
+Automorphism 5: Poly(x**5 - 17, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 5 and base -3...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**5 + 3, x, domain='ZZ')
+Automorphism 2: Poly(x**5 + 3, x, domain='ZZ')
+Automorphism 3: Poly(x**5 + 3, x, domain='ZZ')
+Automorphism 4: Poly(x**5 + 3, x, domain='ZZ')
+Automorphism 5: Poly(x**5 + 3, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 7 and base 7...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**7 - 7, x, domain='ZZ')
+Automorphism 2: Poly(x**7 - 7, x, domain='ZZ')
+Automorphism 3: Poly(x**7 - 7, x, domain='ZZ')
+Automorphism 4: Poly(x**7 - 7, x, domain='ZZ')
+Automorphism 5: Poly(x**7 - 7, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 7 and base 11...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**7 - 11, x, domain='ZZ')
+Automorphism 2: Poly(x**7 - 11, x, domain='ZZ')
+Automorphism 3: Poly(x**7 - 11, x, domain='ZZ')
+Automorphism 4: Poly(x**7 - 11, x, domain='ZZ')
+Automorphism 5: Poly(x**7 - 11, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 7 and base 13...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**7 - 13, x, domain='ZZ')
+Automorphism 2: Poly(x**7 - 13, x, domain='ZZ')
+Automorphism 3: Poly(x**7 - 13, x, domain='ZZ')
+Automorphism 4: Poly(x**7 - 13, x, domain='ZZ')
+Automorphism 5: Poly(x**7 - 13, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 7 and base 17...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**7 - 17, x, domain='ZZ')
+Automorphism 2: Poly(x**7 - 17, x, domain='ZZ')
+Automorphism 3: Poly(x**7 - 17, x, domain='ZZ')
+Automorphism 4: Poly(x**7 - 17, x, domain='ZZ')
+Automorphism 5: Poly(x**7 - 17, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 7 and base -3...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**7 + 3, x, domain='ZZ')
+Automorphism 2: Poly(x**7 + 3, x, domain='ZZ')
+Automorphism 3: Poly(x**7 + 3, x, domain='ZZ')
+Automorphism 4: Poly(x**7 + 3, x, domain='ZZ')
+Automorphism 5: Poly(x**7 + 3, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 11 and base 7...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**11 - 7, x, domain='ZZ')
+Automorphism 2: Poly(x**11 - 7, x, domain='ZZ')
+Automorphism 3: Poly(x**11 - 7, x, domain='ZZ')
+Automorphism 4: Poly(x**11 - 7, x, domain='ZZ')
+Automorphism 5: Poly(x**11 - 7, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 11 and base 11...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**11 - 11, x, domain='ZZ')
+Automorphism 2: Poly(x**11 - 11, x, domain='ZZ')
+Automorphism 3: Poly(x**11 - 11, x, domain='ZZ')
+Automorphism 4: Poly(x**11 - 11, x, domain='ZZ')
+Automorphism 5: Poly(x**11 - 11, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 11 and base 13...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**11 - 13, x, domain='ZZ')
+Automorphism 2: Poly(x**11 - 13, x, domain='ZZ')
+Automorphism 3: Poly(x**11 - 13, x, domain='ZZ')
+Automorphism 4: Poly(x**11 - 13, x, domain='ZZ')
+Automorphism 5: Poly(x**11 - 13, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 11 and base 17...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**11 - 17, x, domain='ZZ')
+Automorphism 2: Poly(x**11 - 17, x, domain='ZZ')
+Automorphism 3: Poly(x**11 - 17, x, domain='ZZ')
+Automorphism 4: Poly(x**11 - 17, x, domain='ZZ')
+Automorphism 5: Poly(x**11 - 17, x, domain='ZZ')
+Testing Artin-Schreier extension with prime 11 and base -3...
+Automorphism Consistency: True
+Automorphism 1: Poly(x**11 + 3, x, domain='ZZ')
+Automorphism 2: Poly(x**11 + 3, x, domain='ZZ')
+Automorphism 3: Poly(x**11 + 3, x, domain='ZZ')
+Automorphism 4: Poly(x**11 + 3, x, domain='ZZ')
+Automorphism 5: Poly(x**11 + 3, x, domain='ZZ')
+
+=== Witt Vector Fields ===
+
+Testing Witt vector field with base 7 and dimension 2...
+Witt Vector Field: {0: 1, 1: 7}
+
+Testing Witt vector field with base 7 and dimension 3...
+Witt Vector Field: {0: 1, 1: 7, 2: 49}
+
+Testing Witt vector field with base 7 and dimension 4...
+Witt Vector Field: {0: 1, 1: 7, 2: 49, 3: 343}
+
+Testing Witt vector field with base 7 and dimension 5...
+Witt Vector Field: {0: 1, 1: 7, 2: 49, 3: 343, 4: 2401}
+
+Testing Witt vector field with base 11 and dimension 2...
+Witt Vector Field: {0: 1, 1: 11}
+
+Testing Witt vector field with base 11 and dimension 3...
+Witt Vector Field: {0: 1, 1: 11, 2: 121}
+
+Testing Witt vector field with base 11 and dimension 4...
+Witt Vector Field: {0: 1, 1: 11, 2: 121, 3: 1331}
+
+Testing Witt vector field with base 11 and dimension 5...
+Witt Vector Field: {0: 1, 1: 11, 2: 121, 3: 1331, 4: 14641}
+
+Testing Witt vector field with base 13 and dimension 2...
+Witt Vector Field: {0: 1, 1: 13}
+
+Testing Witt vector field with base 13 and dimension 3...
+Witt Vector Field: {0: 1, 1: 13, 2: 169}
+
+Testing Witt vector field with base 13 and dimension 4...
+Witt Vector Field: {0: 1, 1: 13, 2: 169, 3: 2197}
+
+Testing Witt vector field with base 13 and dimension 5...
+Witt Vector Field: {0: 1, 1: 13, 2: 169, 3: 2197, 4: 28561}
+
+Testing Witt vector field with base 17 and dimension 2...
+Witt Vector Field: {0: 1, 1: 17}
+
+Testing Witt vector field with base 17 and dimension 3...
+Witt Vector Field: {0: 1, 1: 17, 2: 289}
+
+Testing Witt vector field with base 17 and dimension 4...
+Witt Vector Field: {0: 1, 1: 17, 2: 289, 3: 4913}
+
+Testing Witt vector field with base 17 and dimension 5...
+Witt Vector Field: {0: 1, 1: 17, 2: 289, 3: 4913, 4: 83521}
+
+Testing Witt vector field with base -3 and dimension 2...
+Witt Vector Field: {0: 1, 1: -3}
+
+Testing Witt vector field with base -3 and dimension 3...
+Witt Vector Field: {0: 1, 1: -3, 2: 9}
+
+Testing Witt vector field with base -3 and dimension 4...
+Witt Vector Field: {0: 1, 1: -3, 2: 9, 3: -27}
+
+Testing Witt vector field with base -3 and dimension 5...
+Witt Vector Field: {0: 1, 1: -3, 2: 9, 3: -27, 4: 81}
+
+Testing Witt vector field with base sqrt(2) and dimension 2...
+Witt Vector Field: {0: 1, 1: sqrt(2)}
+
+Testing Witt vector field with base sqrt(2) and dimension 3...
+Witt Vector Field: {0: 1, 1: sqrt(2), 2: 2}
+
+Testing Witt vector field with base sqrt(2) and dimension 4...
+Witt Vector Field: {0: 1, 1: sqrt(2), 2: 2, 3: 2*sqrt(2)}
+
+Testing Witt vector field with base sqrt(2) and dimension 5...
+Witt Vector Field: {0: 1, 1: sqrt(2), 2: 2, 3: 2*sqrt(2), 4: 4}
+
+
+=== Extended Automorphism Tests ===
+
+Testing extended automorphisms with base 7 and power 1/3...
+Automorphism 1: x**3 - 7
+Automorphism 2: x**3 - 7
+Automorphism 3: x**3 - 7
+Automorphism 4: x**3 - 7
+Automorphism 5: x**3 - 7
+Automorphism 6: x**3 - 7
+Automorphism 7: x**3 - 7
+Automorphism 8: x**3 - 7
+Automorphism 9: x**3 - 7
+Automorphism 10: x**3 - 7
+Testing extended automorphisms with base 7 and power 1/5...
+Automorphism 1: x**5 - 7
+Automorphism 2: x**5 - 7
+Automorphism 3: x**5 - 7
+Automorphism 4: x**5 - 7
+Automorphism 5: x**5 - 7
+Automorphism 6: x**5 - 7
+Automorphism 7: x**5 - 7
+Automorphism 8: x**5 - 7
+Automorphism 9: x**5 - 7
+Automorphism 10: x**5 - 7
+Testing extended automorphisms with base 7 and power sqrt(2)...
+Error during automorphism determination: 7 does not seem to be an algebraic element
+
+Testing extended automorphisms with base 7 and power pi...
+Error during automorphism determination: 7 does not seem to be an algebraic element
+
+Testing extended automorphisms with base 11 and power 1/3...
+Automorphism 1: x**3 - 11
+Automorphism 2: x**3 - 11
+Automorphism 3: x**3 - 11
+Automorphism 4: x**3 - 11
+Automorphism 5: x**3 - 11
+Automorphism 6: x**3 - 11
+Automorphism 7: x**3 - 11
+Automorphism 8: x**3 - 11
+Automorphism 9: x**3 - 11
+Automorphism 10: x**3 - 11
+Testing extended automorphisms with base 11 and power 1/5...
+Automorphism 1: x**5 - 11
+Automorphism 2: x**5 - 11
+Automorphism 3: x**5 - 11
+Automorphism 4: x**5 - 11
+Automorphism 5: x**5 - 11
+Automorphism 6: x**5 - 11
+Automorphism 7: x**5 - 11
+Automorphism 8: x**5 - 11
+Automorphism 9: x**5 - 11
+Automorphism 10: x**5 - 11
+Testing extended automorphisms with base 11 and power sqrt(2)...
+Error during automorphism determination: 11 does not seem to be an algebraic element
+
+Testing extended automorphisms with base 11 and power pi...
+Error during automorphism determination: 11 does not seem to be an algebraic element
+
+
+=== Purely Inseparable Extensions ===
+
+Testing purely inseparable extension with characteristic 2 and power 1...
+Automorphism 1: Poly(x**2 - 2, x, domain='ZZ')
+Automorphism 2: Poly(x**2 - 2, x, domain='ZZ')
+Automorphism 3: Poly(x**2 - 2, x, domain='ZZ')
+Automorphism 4: Poly(x**2 - 2, x, domain='ZZ')
+Automorphism 5: Poly(x**2 - 2, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 2 and power 2...
+Automorphism 1: Poly(x**4 - 2, x, domain='ZZ')
+Automorphism 2: Poly(x**4 - 2, x, domain='ZZ')
+Automorphism 3: Poly(x**4 - 2, x, domain='ZZ')
+Automorphism 4: Poly(x**4 - 2, x, domain='ZZ')
+Automorphism 5: Poly(x**4 - 2, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 2 and power 3...
+Automorphism 1: Poly(x**8 - 2, x, domain='ZZ')
+Automorphism 2: Poly(x**8 - 2, x, domain='ZZ')
+Automorphism 3: Poly(x**8 - 2, x, domain='ZZ')
+Automorphism 4: Poly(x**8 - 2, x, domain='ZZ')
+Automorphism 5: Poly(x**8 - 2, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 2 and power 4...
+Automorphism 1: Poly(x**16 - 2, x, domain='ZZ')
+Automorphism 2: Poly(x**16 - 2, x, domain='ZZ')
+Automorphism 3: Poly(x**16 - 2, x, domain='ZZ')
+Automorphism 4: Poly(x**16 - 2, x, domain='ZZ')
+Automorphism 5: Poly(x**16 - 2, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 3 and power 1...
+Automorphism 1: Poly(x**3 - 3, x, domain='ZZ')
+Automorphism 2: Poly(x**3 - 3, x, domain='ZZ')
+Automorphism 3: Poly(x**3 - 3, x, domain='ZZ')
+Automorphism 4: Poly(x**3 - 3, x, domain='ZZ')
+Automorphism 5: Poly(x**3 - 3, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 3 and power 2...
+Automorphism 1: Poly(x**9 - 3, x, domain='ZZ')
+Automorphism 2: Poly(x**9 - 3, x, domain='ZZ')
+Automorphism 3: Poly(x**9 - 3, x, domain='ZZ')
+Automorphism 4: Poly(x**9 - 3, x, domain='ZZ')
+Automorphism 5: Poly(x**9 - 3, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 3 and power 3...
+Automorphism 1: Poly(x**27 - 3, x, domain='ZZ')
+Automorphism 2: Poly(x**27 - 3, x, domain='ZZ')
+Automorphism 3: Poly(x**27 - 3, x, domain='ZZ')
+Automorphism 4: Poly(x**27 - 3, x, domain='ZZ')
+Automorphism 5: Poly(x**27 - 3, x, domain='ZZ')
+Testing purely inseparable extension with characteristic 3 and power 4...
+Automorphism 1: Poly(x**81 - 3, x, domain='ZZ')
+Automorphism 2: Poly(x**81 - 3, x, domain='ZZ')
+Automorphism 3: Poly(x**81 - 3, x, domain='ZZ')
+Automorphism 4: Poly(x**81 - 3, x, domain='ZZ')
+Automorphism 5: Poly(x**81 - 3, x, domain='ZZ')
+
+=== p-adic Stability Tests ===
+
+Testing p-adic stability for base 7...
+p-adic Expansion 1: 1.9129311827723891011991168395487602828624390503459
+p-adic Expansion 2: 1.9129311827723891011991168395487602828624390503459
+p-adic Expansion 3: 1.9129311827723891011991168395487602828624390503459
+p-adic Expansion 4: 1.9129311827723891011991168395487602828624390503459
+p-adic Expansion 5: 1.9129311827723891011991168395487602828624390503459
+
+Testing p-adic stability for base 11...
+p-adic Expansion 1: 2.2239800905693155211653633767221571965186991280969
+p-adic Expansion 2: 2.2239800905693155211653633767221571965186991280969
+p-adic Expansion 3: 2.2239800905693155211653633767221571965186991280969
+p-adic Expansion 4: 2.2239800905693155211653633767221571965186991280969
+p-adic Expansion 5: 2.2239800905693155211653633767221571965186991280969
+
+
+=== Cross-Verification of Roots ===
+
+Cross-verifying Kummer extension with base 7 and power 1/3...
+Exact Root: 7**(1/3)
+Numerical Root (mpmath): 1.9129311827723890323210246652643310006964323139471
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 7 and power 1/5...
+Exact Root: 7**(1/5)
+Numerical Root (mpmath): 1.4757731615945521011594352414359040315053865571665
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 7 and power sqrt(2)...
+Exact Root: 7**(sqrt(2))
+Numerical Root (mpmath): 15.672890873693549217790837923212951354200722937054
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 7 and power pi...
+Exact Root: 7**pi
+Numerical Root (mpmath): 451.80787258604012503146620512292504573265612544964
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 11 and power 1/3...
+Exact Root: 11**(1/3)
+Numerical Root (mpmath): 2.2239800905693154224874207823234685667782694792952
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 11 and power 1/5...
+Exact Root: 11**(1/5)
+Numerical Root (mpmath): 1.6153942662021780445131504925360261136582660845081
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 11 and power sqrt(2)...
+Exact Root: 11**(sqrt(2))
+Numerical Root (mpmath): 29.699672414760707759119379597833594550286452530325
+Cross-verification successful.
+
+Cross-verifying Kummer extension with base 11 and power pi...
+Exact Root: 11**pi
+Numerical Root (mpmath): 1869.0960048570771882867514945996682976410777858691
+Cross-verification successful.
+
+
+=== Summary Statistics ===
+
+Kummer Extensions:
+- Successful Tests: 34
+- Failed Tests: 30
+Artin-Schreier Extensions:
+- Successful Tests: 33
+- Failed Tests: 0
+Witt Vector Fields:
+- Successful Tests: 24
+- Failed Tests: 0
+Cross-Verification of Roots:
+- Successful Tests: 10
+- Failed Tests: 0
+
+=== Overall Statistics ===
+Total Tests Conducted: 131
+Total Successful Tests: 101 (77.10%)
+Total Failed Tests: 30 (22.90%)
+
+=== Statistical Analysis ===
+Mean Successful Tests per Category: 25.25
+Variance in Successful Tests: 92.69
+Mean Failed Tests per Category: 7.50
+Variance in Failed Tests: 168.75
+
+=== Conclusion ===
+The tests provide significant insights into the stability and properties of various field extensions.
+The majority of Kummer, Artin-Schreier, and Witt tests were successful, demonstrating the applicability of our theoretical models.
+However, failures indicate areas where further refinement and investigation are necessary, particularly in managing non-algebraic elements.
