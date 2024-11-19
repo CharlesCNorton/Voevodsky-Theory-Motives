@@ -1,0 +1,303 @@
+C:\Windows\System32>"D:\GitHub\Voevodsky-Theory-Motives\Tests\MotivicValidator7.py"
+
+Analyzing standard structure:
+
+Dimension 3:
+Betti numbers: [1000, 510]
+Stability metrics: {'dim_0_stability': 0.036523520946502686, 'dim_1_stability': 0.042180776596069336}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.2839
+  max_persistence: 1.0177
+  persistence_ratio: 0.2790
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.0706
+  max_persistence: 0.3619
+  persistence_ratio: 0.1951
+  n_points: 510
+  n_infinite: 0
+
+Dimension 5:
+Betti numbers: [1000, 861]
+Stability metrics: {'dim_0_stability': 0.03020310401916504, 'dim_1_stability': 0.03205370903015137}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.7498
+  max_persistence: 2.0000
+  persistence_ratio: 0.3749
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.1100
+  max_persistence: 0.4489
+  persistence_ratio: 0.2450
+  n_points: 861
+  n_infinite: 0
+
+Dimension 7:
+Betti numbers: [1000, 1071]
+Stability metrics: {'dim_0_stability': 0.03364250063896179, 'dim_1_stability': 0.04046428203582764}
+Dimension 0 persistence statistics:
+  mean_persistence: 1.2022
+  max_persistence: 2.0000
+  persistence_ratio: 0.6011
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.1320
+  max_persistence: 0.5517
+  persistence_ratio: 0.2393
+  n_points: 1071
+  n_infinite: 0
+
+Analyzing kummer structure:
+
+Dimension 3:
+Betti numbers: [1000, 520]
+Stability metrics: {'dim_0_stability': 0.030459165573120117, 'dim_1_stability': 0.036541104316711426}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.2869
+  max_persistence: 1.9215
+  persistence_ratio: 0.1493
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.0725
+  max_persistence: 0.3323
+  persistence_ratio: 0.2182
+  n_points: 520
+  n_infinite: 0
+
+Dimension 5:
+Betti numbers: [1000, 832]
+Stability metrics: {'dim_0_stability': 0.03923940658569336, 'dim_1_stability': 0.029928922653198242}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.7464
+  max_persistence: 2.0000
+  persistence_ratio: 0.3732
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.1116
+  max_persistence: 0.5161
+  persistence_ratio: 0.2163
+  n_points: 832
+  n_infinite: 0
+
+Dimension 7:
+Betti numbers: [1000, 990]
+Stability metrics: {'dim_0_stability': 0.021926462650299072, 'dim_1_stability': 0.0301821231842041}
+Dimension 0 persistence statistics:
+  mean_persistence: 1.2127
+  max_persistence: 2.0000
+  persistence_ratio: 0.6064
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.1326
+  max_persistence: 0.5341
+  persistence_ratio: 0.2483
+  n_points: 990
+  n_infinite: 0
+
+Analyzing artin_schreier structure:
+
+Dimension 3:
+Betti numbers: [1000, 467]
+Stability metrics: {'dim_0_stability': 0.025428175926208496, 'dim_1_stability': 0.03687417507171631}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.2178
+  max_persistence: 1.0058
+  persistence_ratio: 0.2166
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.0576
+  max_persistence: 0.2468
+  persistence_ratio: 0.2335
+  n_points: 467
+  n_infinite: 0
+
+Dimension 5:
+Betti numbers: [1000, 756]
+Stability metrics: {'dim_0_stability': 0.04016518592834473, 'dim_1_stability': 0.037186264991760254}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.5281
+  max_persistence: 1.1501
+  persistence_ratio: 0.4592
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.0847
+  max_persistence: 0.3551
+  persistence_ratio: 0.2384
+  n_points: 756
+  n_infinite: 0
+
+Dimension 7:
+Betti numbers: [1000, 1071]
+Stability metrics: {'dim_0_stability': 0.0245513916015625, 'dim_1_stability': 0.03470730781555176}
+Dimension 0 persistence statistics:
+  mean_persistence: 0.8529
+  max_persistence: 1.5362
+  persistence_ratio: 0.5552
+  n_points: 1000
+  n_infinite: 1
+Dimension 1 persistence statistics:
+  mean_persistence: 0.0863
+  max_persistence: 0.3135
+  persistence_ratio: 0.2752
+  n_points: 1071
+  n_infinite: 0
+
+Stability Analysis Summary:
+
+standard structure:
+
+Dimension 3:
+Average stability: 0.0394
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.2839
+    max_persistence: 1.0177
+    persistence_ratio: 0.2790
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.0706
+    max_persistence: 0.3619
+    persistence_ratio: 0.1951
+    n_points: 510
+    n_infinite: 0
+
+Dimension 5:
+Average stability: 0.0311
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.7498
+    max_persistence: 2.0000
+    persistence_ratio: 0.3749
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.1100
+    max_persistence: 0.4489
+    persistence_ratio: 0.2450
+    n_points: 861
+    n_infinite: 0
+
+Dimension 7:
+Average stability: 0.0371
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 1.2022
+    max_persistence: 2.0000
+    persistence_ratio: 0.6011
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.1320
+    max_persistence: 0.5517
+    persistence_ratio: 0.2393
+    n_points: 1071
+    n_infinite: 0
+
+kummer structure:
+
+Dimension 3:
+Average stability: 0.0335
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.2869
+    max_persistence: 1.9215
+    persistence_ratio: 0.1493
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.0725
+    max_persistence: 0.3323
+    persistence_ratio: 0.2182
+    n_points: 520
+    n_infinite: 0
+
+Dimension 5:
+Average stability: 0.0346
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.7464
+    max_persistence: 2.0000
+    persistence_ratio: 0.3732
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.1116
+    max_persistence: 0.5161
+    persistence_ratio: 0.2163
+    n_points: 832
+    n_infinite: 0
+
+Dimension 7:
+Average stability: 0.0261
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 1.2127
+    max_persistence: 2.0000
+    persistence_ratio: 0.6064
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.1326
+    max_persistence: 0.5341
+    persistence_ratio: 0.2483
+    n_points: 990
+    n_infinite: 0
+
+artin_schreier structure:
+
+Dimension 3:
+Average stability: 0.0312
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.2178
+    max_persistence: 1.0058
+    persistence_ratio: 0.2166
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.0576
+    max_persistence: 0.2468
+    persistence_ratio: 0.2335
+    n_points: 467
+    n_infinite: 0
+
+Dimension 5:
+Average stability: 0.0387
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.5281
+    max_persistence: 1.1501
+    persistence_ratio: 0.4592
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.0847
+    max_persistence: 0.3551
+    persistence_ratio: 0.2384
+    n_points: 756
+    n_infinite: 0
+
+Dimension 7:
+Average stability: 0.0296
+Persistence statistics:
+  Dimension 0:
+    mean_persistence: 0.8529
+    max_persistence: 1.5362
+    persistence_ratio: 0.5552
+    n_points: 1000
+    n_infinite: 1
+  Dimension 1:
+    mean_persistence: 0.0863
+    max_persistence: 0.3135
+    persistence_ratio: 0.2752
+    n_points: 1071
+    n_infinite: 0

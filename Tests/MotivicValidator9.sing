@@ -1,0 +1,42 @@
+// Define the polynomial ring and hypersurface
+ring R = 0, (x, y, z), dp;
+ideal X = x^2 + y^2 - z^2;
+
+// Compute the Jacobian ideal to verify smoothness
+poly dx = diff(X[1], x);
+poly dy = diff(X[1], y);
+poly dz = diff(X[1], z);
+ideal J_X = dx, dy, dz;
+
+// Display the Jacobian ideal
+print("Jacobian Ideal of X:");
+J_X;
+
+// Compute the degree of X
+int degree_X = deg(X[1]);
+print("Degree of X:");
+degree_X;
+
+// Define a line for intersection
+ideal line = x + y;
+
+// Compute intersection of X with a line
+ideal intersect_X = X + line;
+int dim_intersect_X = dim(intersect_X);
+print("Dimension of Intersection (X):");
+dim_intersect_X;
+
+// Tropicalize X manually (simplified approach)
+ring R_trop = 0, (x, y, z), dp;
+ideal X_trop = x + y + z; // Simplified tropicalization
+
+// Define tropicalized line
+poly line_trop = x + y;
+
+// Compute intersection of X_trop with the tropicalized line
+ideal intersect_X_trop = X_trop + line_trop;
+
+// Test if tropical intersection is valid
+int dim_intersect_X_trop = dim(intersect_X_trop);
+print("Dimension of Intersection (X_trop):");
+dim_intersect_X_trop;
