@@ -1,0 +1,352 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     11968,        342]
+NotebookOptionsPosition[     11254,        321]
+NotebookOutlinePosition[     11656,        337]
+CellTagsIndexPosition[     11613,        334]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Define", " ", "Classical", " ", "Curve"}], "*)"}], 
+  RowBox[{
+   RowBox[{
+    RowBox[{"classicalCurve", "=", 
+     RowBox[{
+      RowBox[{"y", "^", "2"}], "==", 
+      RowBox[{
+       RowBox[{"x", "^", "3"}], "-", "1"}]}]}], ";"}], "\[IndentingNewLine]", 
+   "\n", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Compute", " ", "Genus", " ", "and", " ", "Euler", " ", 
+     "Characteristic"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"classicalGenus", "=", "1"}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Known", " ", "for", " ", "elliptic", " ", "curves"}], "*)"}], 
+   "\n", 
+   RowBox[{
+    RowBox[{"classicalEulerCharacteristic", "=", 
+     RowBox[{"2", "-", 
+      RowBox[{"2", "*", "classicalGenus"}]}]}], ";"}], "\[IndentingNewLine]", 
+   "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Define", " ", "Tropical", " ", "Analog"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"tropicalCurve", "=", 
+     RowBox[{"Min", "[", 
+      RowBox[{
+       RowBox[{"2", " ", "y"}], ",", 
+       RowBox[{"3", " ", "x"}], ",", "0"}], "]"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"tropicalGenus", "=", "0"}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Tree", "-", 
+     RowBox[{"like", " ", "structure"}]}], "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"tropicalEulerCharacteristic", "=", "1"}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Euler", " ", "formula", " ", "for", " ", "tropical", " ", "graph"}], 
+    "*)"}], "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Compare", " ", "Classical", " ", "and", " ", "Tropical", " ", 
+     "Invariants"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"comparison", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Classical\>\"", "->", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"\"\<Genus\>\"", "->", "classicalGenus"}], ",", 
+          RowBox[{
+          "\"\<EulerCharacteristic\>\"", "->", 
+           "classicalEulerCharacteristic"}]}], "}"}]}], ",", 
+       RowBox[{"\"\<Tropical\>\"", "->", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"\"\<Genus\>\"", "->", "tropicalGenus"}], ",", 
+          RowBox[{
+          "\"\<EulerCharacteristic\>\"", "->", 
+           "tropicalEulerCharacteristic"}]}], "}"}]}]}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{
+    "Symbolic", " ", "Spectral", " ", "Sequence", " ", "Convergence"}], 
+    "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"spectralSequenceConvergence", "[", 
+      RowBox[{"classical_", ",", "tropical_"}], "]"}], ":=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Classical\>\"", "->", 
+        RowBox[{"SpectralSequencePage", "[", 
+         RowBox[{"classical", ",", "\"\<E2\>\""}], "]"}]}], ",", 
+       RowBox[{"\"\<Tropical\>\"", "->", 
+        RowBox[{"SpectralSequencePage", "[", 
+         RowBox[{"tropical", ",", "\"\<E2\>\""}], "]"}]}]}], "}"}]}], ";"}], 
+   "\n", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"spectralSequenceResults", "=", 
+     RowBox[{"spectralSequenceConvergence", "[", 
+      RowBox[{"classicalCurve", ",", "tropicalCurve"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Blow", "-", 
+     RowBox[{"Up", " ", "Transformation"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"blowUpTransformation", "[", 
+      RowBox[{"curve_", ",", "center_"}], "]"}], ":=", 
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"u", ",", "v", ",", "w"}], "}"}], ",", 
+       RowBox[{"(*", 
+        RowBox[{
+         RowBox[{"Apply", " ", "blow"}], "-", 
+         RowBox[{"up", " ", "formulas"}]}], "*)"}], 
+       RowBox[{
+        RowBox[{"transformedCurve", "=", 
+         RowBox[{"curve", "/.", " ", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"x", "->", 
+             RowBox[{"u", " ", "v"}]}], ",", 
+            RowBox[{"y", "->", 
+             RowBox[{"u", " ", "w"}]}], ",", 
+            RowBox[{"z", "->", "w"}]}], "}"}]}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"Simplify", "[", "transformedCurve", "]"}]}]}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{
+     RowBox[{"Example", ":", 
+      RowBox[{"Blow", "-", 
+       RowBox[{"up", " ", "for", " ", 
+        RowBox[{"x", "^", "2"}]}], "+", 
+       RowBox[{"y", "^", "2"}], "-", 
+       RowBox[{"z", "^", "2"}]}]}], "=", 
+     RowBox[{"0", " ", "at", " ", "center", " ", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0", ",", "1"}], "}"}]}]}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"blownUpCurve", "=", 
+     RowBox[{"blowUpTransformation", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", "^", "2"}], "+", 
+         RowBox[{"y", "^", "2"}], "-", 
+         RowBox[{"z", "^", "2"}]}], "==", "0"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Motivic", " ", "Cohomology", " ", "Simulation"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"motivicCohomology", "[", 
+      RowBox[{"curve_", ",", "codimension_"}], "]"}], ":=", 
+     RowBox[{"Module", "[", 
+      RowBox[{
+       RowBox[{"{", "genus", "}"}], ",", 
+       RowBox[{
+        RowBox[{"genus", "=", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{"curve", "===", "tropicalCurve"}], ",", "tropicalGenus", 
+           ",", "classicalGenus"}], "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"\"\<Codimension\>\"", "->", "codimension"}], ",", 
+          RowBox[{"\"\<MotivicGroup\>\"", "->", 
+           RowBox[{"genus", "+", "codimension"}]}]}], "}"}]}]}], "]"}]}], 
+    ";"}], "\n", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"classicalMotivicCohomology", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"motivicCohomology", "[", 
+        RowBox[{"classicalCurve", ",", "#"}], "]"}], "&"}], "/@", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "2"}], "}"}]}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"tropicalMotivicCohomology", "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"motivicCohomology", "[", 
+        RowBox[{"tropicalCurve", ",", "#"}], "]"}], "&"}], "/@", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "2"}], "}"}]}]}], ";"}], "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Summary", " ", "of", " ", "Results"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"summary", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Comparison\>\"", "->", "comparison"}], ",", 
+       RowBox[{
+       "\"\<SpectralSequenceResults\>\"", "->", "spectralSequenceResults"}], 
+       ",", 
+       RowBox[{"\"\<BlownUpCurve\>\"", "->", "blownUpCurve"}], ",", 
+       RowBox[{
+       "\"\<ClassicalMotivicCohomology\>\"", "->", 
+        "classicalMotivicCohomology"}], ",", 
+       RowBox[{
+       "\"\<TropicalMotivicCohomology\>\"", "->", 
+        "tropicalMotivicCohomology"}]}], "}"}]}], ";"}], 
+   "\[IndentingNewLine]", "\n", 
+   RowBox[{"(*", 
+    RowBox[{"Output", " ", "Results"}], "*)"}], "\[IndentingNewLine]", 
+   "summary", "\n"}]}]], "Input",
+ CellChangeTimes->{{3.9410927906480713`*^9, 3.9410927906490746`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"a877dd2f-5112-7549-897f-4b9017a3242e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"Comparison\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\<\"Classical\"\>", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\<\"Genus\"\>", "\[Rule]", "1"}], ",", 
+         RowBox[{"\<\"EulerCharacteristic\"\>", "\[Rule]", "0"}]}], "}"}]}], 
+      ",", 
+      RowBox[{"\<\"Tropical\"\>", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"\<\"Genus\"\>", "\[Rule]", "0"}], ",", 
+         RowBox[{"\<\"EulerCharacteristic\"\>", "\[Rule]", "1"}]}], "}"}]}]}],
+      "}"}]}], ",", 
+   RowBox[{"\<\"SpectralSequenceResults\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\<\"Classical\"\>", "\[Rule]", 
+       RowBox[{"SpectralSequencePage", "[", 
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["y", "2"], "\[Equal]", 
+          RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           SuperscriptBox["x", "3"]}]}], ",", "\<\"E2\"\>"}], "]"}]}], ",", 
+      RowBox[{"\<\"Tropical\"\>", "\[Rule]", 
+       RowBox[{"SpectralSequencePage", "[", 
+        RowBox[{
+         RowBox[{"Min", "[", 
+          RowBox[{"0", ",", 
+           RowBox[{"3", " ", "x"}], ",", 
+           RowBox[{"2", " ", "y"}]}], "]"}], ",", "\<\"E2\"\>"}], "]"}]}]}], 
+     "}"}]}], ",", 
+   RowBox[{"\<\"BlownUpCurve\"\>", "\[Rule]", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["u$4510", "2"], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["v$4510", "2"], "+", 
+        SuperscriptBox["w$4510", "2"]}], ")"}]}], "\[Equal]", 
+     SuperscriptBox["w$4510", "2"]}]}], ",", 
+   RowBox[{"\<\"ClassicalMotivicCohomology\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\<\"Codimension\"\>", "\[Rule]", "1"}], ",", 
+        RowBox[{"\<\"MotivicGroup\"\>", "\[Rule]", "2"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\<\"Codimension\"\>", "\[Rule]", "2"}], ",", 
+        RowBox[{"\<\"MotivicGroup\"\>", "\[Rule]", "3"}]}], "}"}]}], "}"}]}], 
+   ",", 
+   RowBox[{"\<\"TropicalMotivicCohomology\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\<\"Codimension\"\>", "\[Rule]", "1"}], ",", 
+        RowBox[{"\<\"MotivicGroup\"\>", "\[Rule]", "1"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"\<\"Codimension\"\>", "\[Rule]", "2"}], ",", 
+        RowBox[{"\<\"MotivicGroup\"\>", "\[Rule]", "2"}]}], "}"}]}], 
+     "}"}]}]}], "}"}]], "Output",
+ CellChangeTimes->{3.9410927960190983`*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"78e1e193-6dab-e14a-8fc2-e44536fa8236"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\"\<BlownUpCurve\>\"", "/.", "\[VeryThinSpace]", "%16"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[17]:=",ExpressionUUID->"bbe1cda2-675e-4d4a-b542-7f68eabd6bd5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SuperscriptBox["u$4510", "2"], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     SuperscriptBox["v$4510", "2"], "+", 
+     SuperscriptBox["w$4510", "2"]}], ")"}]}], "\[Equal]", 
+  SuperscriptBox["w$4510", "2"]}]], "Output",
+ CellChangeTimes->{3.941092800976513*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"d70a6a83-0da7-7c4d-bad6-596d40faf09e"]
+}, Open  ]]
+},
+WindowSize->{571, 627.5},
+WindowMargins->{{669, Automatic}, {Automatic, 197}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e0c1ea49-18a0-4145-8af2-c84b73f5e83e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 7409, 203, 1150, "Input",ExpressionUUID->"a877dd2f-5112-7549-897f-4b9017a3242e"],
+Cell[7988, 227, 2646, 71, 279, "Output",ExpressionUUID->"78e1e193-6dab-e14a-8fc2-e44536fa8236"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10671, 303, 191, 3, 28, "Input",ExpressionUUID->"bbe1cda2-675e-4d4a-b542-7f68eabd6bd5"],
+Cell[10865, 308, 373, 10, 34, "Output",ExpressionUUID->"d70a6a83-0da7-7c4d-bad6-596d40faf09e"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
